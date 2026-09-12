@@ -13,7 +13,7 @@ typedef struct
 typedef struct
 {
     int numGrupo;
-    char profesor[MAX_LEN_PROFESOR];
+    char profesor[MAX_LEN_NOMBRE];
     Bloque clases[MAX_CLASES_POR_GRUPO];
     int cantidadClases;
     int choca;

@@ -1,35 +1,23 @@
-//
-// Created by nacho on 9/10/2026.
-//
 #include <stdio.h>
 
 #include "structCatalogoCursos.h"
+#include "structEstudiante.h"
 #include "parser.h"
 #include "constantes.h"
 
-int main(int argc, char *argv[]) {
-    const char *ruta = (argc > 1) ? argv[1] : "Horarios/compu.json";
+static void imprimirCatalogo(const Catalogo *catalogo) {
+    printf("=== Catalogo cargado: %d cursos ===\n\n", catalogo->cantidadCursos);
 
-    Catalogo catalogo;
-    int resultado = cargarCatalogo(ruta, &catalogo);
-
-    if (resultado != OK) {
-        fprintf(stderr, "No se pudo cargar el catalogo (codigo de error %d)\n", resultado);
-        return 1;
-    }
-
-    printf("Catalogo cargado: %d cursos\n\n", catalogo.cantidadCursos);
-
-    for (int i = 0; i < catalogo.cantidadCursos; i++) {
-        Curso *c = &catalogo.cursos[i];
+    for (int i = 0; i < catalogo->cantidadCursos; i++) {
+        const Curso *c = &catalogo->cursos[i];
         printf("%-8s %-45s %d creditos, %d grupo(s)\n",
                c->codigo, c->nombre, c->numCreditos, c->cantidadGrupos);
 
         for (int j = 0; j < c->cantidadGrupos; j++) {
-            Grupo *g = &c->grupos[j];
+            const Grupo *g = &c->grupos[j];
             printf("    grupo %d (%s): ", g->numGrupo, g->profesor);
             for (int k = 0; k < g->cantidadClases; k++) {
-                Bloque *b = &g->clases[k];
+                const Bloque *b = &g->clases[k];
                 printf("%s %d-%d  ", b->dia, b->inicio, b->fin);
             }
             printf("\n");
@@ -44,6 +32,39 @@ int main(int argc, char *argv[]) {
         }
         printf("\n");
     }
+}
+
+static void imprimirEstudiante(const Estudiante *estudiante) {
+    printf("=== Historial cargado ===\n");
+    printf("Carnet: %s\n", estudiante->carnet);
+    printf("Nombre: %s\n", estudiante->nombre);
+    printf("Cursos aprobados (%d): ", estudiante->cantidadCursosAprobados);
+    for (int i = 0; i < estudiante->cantidadCursosAprobados; i++) {
+        printf("%s%s", estudiante->cursosAprobados[i],
+               (i < estudiante->cantidadCursosAprobados - 1) ? ", " : "");
+    }
+    printf("\n\n");
+}
+
+int main(int argc, char *argv[]) {
+    const char *rutaCatalogo = (argc > 1) ? argv[1] : "Horarios/compu.json";
+    const char *rutaHistorial = (argc > 2) ? argv[2] : "Estudiantes/historial_estudiante.json";
+
+    Catalogo catalogo;
+    int resultadoCatalogo = cargarCatalogo(rutaCatalogo, &catalogo);
+    if (resultadoCatalogo != OK) {
+        fprintf(stderr, "No se pudo cargar el catalogo (codigo de error %d)\n", resultadoCatalogo);
+        return 1;
+    }
+    imprimirCatalogo(&catalogo);
+
+    Estudiante estudiante;
+    int resultadoHistorial = cargarHistorialEstudiante(rutaHistorial, &estudiante);
+    if (resultadoHistorial != OK) {
+        fprintf(stderr, "No se pudo cargar el historial (codigo de error %d)\n", resultadoHistorial);
+        return 1;
+    }
+    imprimirEstudiante(&estudiante);
 
     return 0;
 }

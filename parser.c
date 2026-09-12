@@ -6,7 +6,10 @@
 #include "constantes.h"
 #include "parser.h"
 
-/* ---- utilidades internas (static = solo visibles en este archivo) ---- */
+
+/*----------------------------------------Parser Catalogo-----------------------------------------*/
+
+//funciones provadas
 
 /* Copia segura: siempre deja el string terminado en '\0', nunca se
  * desborda el buffer destino aunque el origen sea más largo. */
@@ -89,9 +92,8 @@ static int llenarBloque(cJSON *claseJson, Bloque *bloque) {
 }
 
 /* Llena un Grupo a partir de un objeto {"numero", "clases", "Profesor"}.
- * Nota: el JSON usa "Profesor" con mayuscula inicial, inconsistente
- * con el resto de las claves en minuscula - lo documentamos aqui
- * porque es la clase de detalle que preguntan en la defensa. */
+ * Nota: el JSON usa "Profesor" con mayuscula inicial*/
+
 static int llenarGrupo(cJSON *grupoJson, Grupo *grupo) {
     cJSON *numero = cJSON_GetObjectItemCaseSensitive(grupoJson, "numero");
     cJSON *profesor = cJSON_GetObjectItemCaseSensitive(grupoJson, "Profesor");
@@ -102,7 +104,7 @@ static int llenarGrupo(cJSON *grupoJson, Grupo *grupo) {
     }
 
     grupo->numGrupo = (int)numero->valuedouble;
-    copiarString(grupo->profesor, MAX_LEN_PROFESOR,
+    copiarString(grupo->profesor, MAX_LEN_NOMBRE,
                  cJSON_IsString(profesor) ? profesor->valuestring : "Desconocido");
     grupo->choca = 0; /* se calcula despues, en la fase de deteccion de choques */
 
@@ -169,7 +171,6 @@ static int llenarCurso(cJSON *cursoJson, Curso *curso) {
 }
 
 /* ---- funcion publica ---- */
-
 int cargarCatalogo(const char *rutaArchivo, Catalogo *catalogo) {
     char *contenido = leerArchivoCompleto(rutaArchivo);
     if (contenido == NULL) {
@@ -210,3 +211,76 @@ int cargarCatalogo(const char *rutaArchivo, Catalogo *catalogo) {
     cJSON_Delete(raiz);
     return OK;
 }
+
+/*----------------------------------------Parser Estudiante-----------------------------------------*/
+
+//Funcion privada
+static void escritorDeCodigos(cJSON *arregloJson,
+                               char destino[][MAX_LEN_CODIGO],
+                               int maxElementos,
+                               int *cantidadOut) {
+    int cantidad = 0;
+
+    if (arregloJson != NULL && cJSON_IsArray(arregloJson)) {
+        cJSON *elemento = NULL;
+        cJSON_ArrayForEach(elemento, arregloJson) {
+            if (cantidad >= maxElementos) {
+                fprintf(stderr, "Advertencia: se alcanzo el maximo de %d elementos\n", maxElementos);
+                break;
+            }
+            if (cJSON_IsString(elemento)) {
+                copiarString(destino[cantidad],MAX_LEN_CODIGO, elemento->valuestring);
+                cantidad++;
+            }
+        }
+    }
+
+    *cantidadOut = cantidad;
+}
+
+int llenarEstudiante(cJSON *estudianteJson, Estudiante *estudiante) {
+    cJSON *carnet = cJSON_GetObjectItemCaseSensitive(estudianteJson, "carnet");
+    cJSON *nombre = cJSON_GetObjectItemCaseSensitive(estudianteJson, "nombre");
+    cJSON *cursosAprobados = cJSON_GetObjectItemCaseSensitive(estudianteJson, "cursosAprobados");
+
+    if (!cJSON_IsString(carnet) || !cJSON_IsString(nombre)) {
+        fprintf(stderr, "Error: historial con campos obligatorios faltantes\n");
+        return 0;
+    }
+
+    copiarString(estudiante->carnet, MAX_LEN_CARNET, carnet->valuestring);
+    copiarString(estudiante->nombre, MAX_LEN_NOMBRE, nombre->valuestring);
+    escritorDeCodigos(cursosAprobados, estudiante->cursosAprobados, MAX_CURSOS_APROBADOS,
+                       &estudiante->cantidadCursosAprobados);
+
+    return 1;
+}
+
+//funcion publica
+
+int cargarHistorialEstudiante(const char *rutaArchivo, Estudiante *estudiante)
+{
+    char *contenido = leerArchivoCompleto(rutaArchivo);
+    if (contenido == NULL) {
+        fprintf(stderr, "Error: no se pudo abrir '%s'\n", rutaArchivo);
+        return ERROR_ARCHIVO_NO_EXISTE;
+    }
+
+    cJSON *raiz = cJSON_Parse(contenido);
+    free(contenido); /* ya no se necesita el texto crudo, cJSON hizo su propia copia */
+
+    if (raiz == NULL) {
+        const char *errorPtr = cJSON_GetErrorPtr();
+        fprintf(stderr, "Error: JSON invalido cerca de: %s\n",
+                errorPtr != NULL ? errorPtr : "(desconocido)");
+        return ERROR_JSON_INVALIDO;
+    }
+
+    int exito = llenarEstudiante(raiz, estudiante);
+
+    cJSON_Delete(raiz);
+
+    if (exito) return OK;
+
+    return ERROR_CAMPO_FALTANTE;
+};
