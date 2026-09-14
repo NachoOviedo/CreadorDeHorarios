@@ -1,0 +1,525 @@
+[
+  {
+    "codigo": "CE1101",
+    "nombre": "Introducción a la programación",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jeff Schmidt"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jeff Schmidt"
+      }
+    ]
+  },
+
+  {
+    "codigo": "CE1104",
+    "nombre": "Fundamentos de Sistemas Computacionales",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Milton Villegas"
+      }
+    ]
+  },
+
+  {
+    "codigo": "CE1103",
+    "nombre": "Algoritmos y Estructuras de Datos I",
+    "creditos": 4,
+    "requisitos": [
+      "Introducción a la Programación",
+      "Fundamentos de Sistemas Computacionales",
+      "Matemática Discreta"
+      ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Ellioth Ramírez"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Santiago Gamboa"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Santiago Gamboa"
+      }
+    ]
+  },
+
+  {
+    "codigo": "CE1105",
+    "nombre": "Principios de Modelado en Ingeniería",
+    "creditos": 3,
+    "requisitos": [
+      "Fundamentos de Sistemas Computacionales"
+      ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Diego Mora"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Marco Rivera"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1900,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1950,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Marco Hernández"
+      }
+    ]
+  },
+
+  {
+    "codigo": "CE2103",
+    "nombre": "Algoritmos y Estructuras de Datos II",
+    "creditos": 4,
+    "requisitos": [
+      "Algoritmos y Estructuras de Datos I",
+      "Principios de Modelado en Ingeniería"
+      ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Isaac Ramírez"
+      }
+    ]
+  },
+
+  {
+    "codigo": "CE2201",
+    "nombre": "Laboratorio de Circuitos Eléctricos",
+    "creditos": 1,
+    "requisitos": [
+      "Laboratorio de Física General II"
+      ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Leonardo Araya"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Leonardo Araya"
+      }
+    ]
+  },
+
+
+  {
+    "codigo": "CE1106",
+    "nombre": "Paradigmas de Programación",
+    "creditos": 3,
+    "requisitos": [
+      "Algoritmos y Estructuras de Datos II"
+      ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Barboza"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Santiago Gamboa"
+      }
+    ]
+  },
+
+  {
+    "codigo": "EL2113",
+    "nombre": "Circuitos Eléctricos en Corriente Continua",
+    "creditos": 4,
+    "requisitos": [
+      "Cálculo Diferencial e Integral",
+      "Física General I"
+      ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Paola Vega"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Javier Rodríguez"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Fabian Picado"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Miguel Hernández"
+      }
+    ]
+  },
+
+  {
+    "codigo": "EL2114",
+    "nombre": "Circuitos Eléctricos en Corriente Alterna",
+    "creditos": 4,
+    "requisitos": [
+      "Circuitos Eléctricos en Corriente Continua"
+      ],
+    "correquisitos": [
+      "Elementos Activos"
+      ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Erick Chinchilla"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "William Quirós"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Heberth Valverde"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Felipe Herrero"
+      }
+    ]
+  },
+
+  {
+    "codigo": "EL2207",
+    "nombre": "Elementos Activos",
+    "creditos": 4,
+    "requisitos": [
+      "Circuitos Eléctricos en Corriente Continua"
+      ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Carlos Segura"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Juan Montero"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Paola Vega"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Mac Pinnock"
+      }
+    ]
+  }
+]
