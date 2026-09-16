@@ -9,7 +9,7 @@
 
 /*----------------------------------------Parser Catalogo-----------------------------------------*/
 
-//funciones provadas
+//funciones privadas
 
 /* Copia segura: siempre deja el string terminado en '\0', nunca se
  * desborda el buffer destino aunque el origen sea más largo. */
