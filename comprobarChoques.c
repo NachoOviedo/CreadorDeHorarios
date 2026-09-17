@@ -1,5 +1,4 @@
 
-#include "constantes.h"
 #include "comprobarChoques.h"
 
 #include <stdio.h>
@@ -23,11 +22,11 @@ int bloquesChocan(const Bloque *bloqueA, const Bloque *bloqueB)
     //Las clases son el mismo dia falta verificar que sea en el mismo horario
     // Si el inicio de el otro bloque es mayor al final del bloque anterior no chocan
 
-    if ( bloqueA->inicio < bloqueB->fin && bloqueB->inicio < bloqueA->inicio)
+    if ( bloqueA->inicio < bloqueB->fin && bloqueB->inicio < bloqueA->fin)
     {
-        return 0;
+        return 1;
     }
-    return 1;
+    return 0;
 }
 
 int gruposChocan(const Grupo *grupoA, const Grupo *grupoB)
@@ -38,11 +37,11 @@ int gruposChocan(const Grupo *grupoA, const Grupo *grupoB)
     };
 
     //Comprobar si chocan o no los grupos
-    for (int i, i < grupoA->cantidadClases, i++)
+    for (int i = 0; i < grupoA->cantidadClases; i++)
     {
         for (int j = 0; j < grupoB->cantidadClases; j++)
         {
-            if bloquesChocan(&grupoA->clases[i], &grupoB->clases[j])
+            if (bloquesChocan(&grupoA->clases[i], &grupoB->clases[j]))
             {
                 //Hubo al menos un dia en el que los bloques chocaron
                 return 1;
