@@ -521,5 +521,757 @@
         "Profesor": "Mac Pinnock"
       }
     ]
+  },
+  {
+    "codigo": "MA1102",
+    "nombre": "Cálculo Diferencial e Integral",
+    "creditos": 4,
+    "requisitos": [
+      "Matemática General"
+      ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1020
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Lourdes Quesada"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Marcial Cordero"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "David Masis"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1220
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1030,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Cristian Paez"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Natalia Rodríguez"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Edward Parra"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1600,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "David Masis"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1750
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Lourdes Quesada"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Juan Fallas"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Cristian Paez"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1020
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jorge Jiménez"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1030,
+            "fin": 1220
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Edward Parra"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1220
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1030,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Luis Mora"
+      },
+      {
+        "numero": 15,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Félix Núñez"
+      },
+      {
+        "numero": 16,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1750
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Luis Mora"
+      },
+      {
+        "numero": 17,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1600,
+            "fin": 1850
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Marco Gutiérrez"
+      },
+      {
+        "numero": 19,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1950
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "María Mora"
+      },
+      {
+        "numero": 20,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Verónica López"
+      },
+      {
+        "numero": 21,
+        "clases": [
+          {
+            "dia": "sábado",
+            "inicio": 730,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Jorge Madrigal"
+      }
+    ]
+  },
+  {
+    "codigo": "MA1103",
+    "nombre": "Cálculo y Álgebra Lineal",
+    "creditos": 4,
+    "requisitos": [
+      "Cálculo Diferencial e Integral"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jeffry Chavarría"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jorge Chinchilla"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jorge Chinchilla"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Jeffry Chavarría"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Alejandra Jiménez"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Geovanni Figueroa"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1600,
+            "fin": 1750
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Randall Brenes"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Marco Vinicio"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 1950
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Geovanni Figueroa"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Luis Acuña"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Marco Vinicio"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Geovanni Figueroa"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Manuel Calderón"
+      },
+      {
+        "numero": 15,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1600,
+            "fin": 1750
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Emmanuelle Parra"
+      },
+      {
+        "numero": 17,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 1950
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Luis Mora"
+      },
+      {
+        "numero": 18,
+        "clases": [
+          {
+            "dia": "sábado",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Mora"
+      }
+    ]
+  },
+  {
+    "codigo": "MA0101",
+    "nombre": "Matemática General",
+    "creditos": 2,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1020
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Angie Solís"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Arturo Vega"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Marcial Cordero"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Jorge Jiménez"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1600,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Bryan Rodríguez"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Marcial Cordero"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Ivonne Sánchez"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1220
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Marcela Marrero"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Lourdes Quesada"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1750
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Roberto Azofeifa"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "sábado",
+            "inicio": 730,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Daniel Solano"
+      }
+    ]
   }
 ]
