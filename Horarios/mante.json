@@ -1,0 +1,3261 @@
+[
+  {
+    "codigo": "MA1102",
+    "nombre": "Cálculo Diferencial e Integral",
+    "creditos": 4,
+    "requisitos": [
+      "Matemática General"
+      ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1020
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Lourdes Quesada"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Marcial Cordero"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "David Masis"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1220
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1030,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Cristian Paez"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Natalia Rodríguez"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Edward Parra"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1600,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "David Masis"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1750
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Lourdes Quesada"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Juan Fallas"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Cristian Paez"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1020
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jorge Jiménez"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1030,
+            "fin": 1220
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Edward Parra"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1220
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1030,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Luis Mora"
+      },
+      {
+        "numero": 15,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Félix Núñez"
+      },
+      {
+        "numero": 16,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1750
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Luis Mora"
+      },
+      {
+        "numero": 17,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1600,
+            "fin": 1850
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Marco Gutiérrez"
+      },
+      {
+        "numero": 19,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1950
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "María Mora"
+      },
+      {
+        "numero": 20,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Verónica López"
+      },
+      {
+        "numero": 21,
+        "clases": [
+          {
+            "dia": "sábado",
+            "inicio": 730,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Jorge Madrigal"
+      }
+    ]
+  },
+  {
+    "codigo": "MA1103",
+    "nombre": "Cálculo y Álgebra Lineal",
+    "creditos": 4,
+    "requisitos": [
+      "Cálculo Diferencial e Integral"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jeffry Chavarría"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jorge Chinchilla"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jorge Chinchilla"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Jeffry Chavarría"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Alejandra Jiménez"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Geovanni Figueroa"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1600,
+            "fin": 1750
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Randall Brenes"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Marco Vinicio"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 1950
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Geovanni Figueroa"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Luis Acuña"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Marco Vinicio"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Geovanni Figueroa"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Manuel Calderón"
+      },
+      {
+        "numero": 15,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1600,
+            "fin": 1750
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Emmanuelle Parra"
+      },
+      {
+        "numero": 17,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 1950
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Luis Mora"
+      },
+      {
+        "numero": 18,
+        "clases": [
+          {
+            "dia": "sábado",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Mora"
+      }
+    ]
+  },
+  {
+    "codigo": "MA0101",
+    "nombre": "Matemática General",
+    "creditos": 2,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1020
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Angie Solís"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Arturo Vega"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Marcial Cordero"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Jorge Jiménez"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1600,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1600,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Bryan Rodríguez"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Marcial Cordero"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Ivonne Sánchez"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1220
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Marcela Marrero"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Lourdes Quesada"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1750
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Roberto Azofeifa"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "sábado",
+            "inicio": 730,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Daniel Solano"
+      }
+    ]
+  },
+  {
+    "codigo": "QU1106",
+    "nombre": "Química Básica I",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [
+      "Laboratorio de Química Básica I"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "María Porras"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Carlos Calleja"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "María Porras"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Silvia Soto"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Noemí Quirós"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "María Porras"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Fabián Villalta"
+      }
+    ]
+  },
+  {
+    "codigo": "QU1102",
+    "nombre": "Laboratorio de Química Básica I",
+    "creditos": 1,
+    "requisitos": [],
+    "correquisitos": [
+      "Química Básica I"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Juan Salas"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Carlos Calleja"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Carlos Calleja"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Alejandra Mata"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jesús Mora"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jesús Mora"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Jesús Mora"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Laura Hernández"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Noemí Quirós"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Noemí Quirós"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Carlos Calleja"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Silvia Soto"
+      },
+      {
+        "numero": 15,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Aura Ledezma"
+      }
+    ]
+  },
+  {
+    "codigo": "PI2609",
+    "nombre": "Probabilidad y Estadística",
+    "creditos": 2,
+    "requisitos": [
+      "Cálculo Superior"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Paula Solano"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Ivannia Hasbum"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Ivannia Hasbum"
+      }
+    ]
+  },
+  {
+    "codigo": "MA2104",
+    "nombre": "Cálculo Superior",
+    "creditos": 4,
+    "requisitos": [
+      "Cálculo y Álgebra Lineal"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jorge Monge"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 1950
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Alexander Borbón"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Samuel Valverde"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Alejandra Jiménez"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 1950
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Norberto Oviedo"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "sábado",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jeison Esquivel"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Erick Chacón"
+      }
+    ]
+  },
+  {
+    "codigo": "FI1202",
+    "nombre": "Laboratorio de Física General II",
+    "creditos": 1,
+    "requisitos": [
+      "Laboratorio de Física General I"
+    ],
+    "correquisitos": [
+      "Física General II"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Araya"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Luis Araya"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Evar Sevilla"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Carlos Jiménez"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Gustavo Murillo"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Rafael Oreamuno"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Walter Morales"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Walter Morales"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Laura Rojas"
+      }
+    ]
+  },
+  {
+    "codigo": "FI1201",
+    "nombre": "Laboratorio de Física General I",
+    "creditos": 1,
+    "requisitos": [],
+    "correquisitos": [
+      "Física General I"
+    ],
+    "grupos": [
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Carlos Jiménez"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Melania Campos"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Melania Campos"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Carlos Jiménez"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Carlos Mayorga"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Esteban Corrales"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "José Alfaro"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Ernesto Montero"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Walter Morales"
+      },
+      {
+        "numero": 16,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Walter Morales"
+      },
+      {
+        "numero": 17,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Walter Morales"
+      },
+      {
+        "numero": 18,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Esteban Corrales"
+      },
+      {
+        "numero": 22,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jennifer Elizondo"
+      },
+      {
+        "numero": 23,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Michael Cambronero"
+      },
+      {
+        "numero": 24,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Michael Cambronero"
+      },
+      {
+        "numero": 26,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Walter Morales"
+      },
+      {
+        "numero": 27,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "José Alfaro"
+      },
+      {
+        "numero": 29,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Rafael Oreamuno"
+      }
+    ]
+  },
+  {
+    "codigo": "FI1102",
+    "nombre": "Física General II",
+    "creditos": 3,
+    "requisitos": [
+      "Física General I",
+      "Cálculo Diferencial e Integral"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Juan Lobo"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Iván Vargas"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Álvaro Amador"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Juan Pineda"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Juan Pineda"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Gustavo Murillo"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "José Pérez"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Rafael Oreamuno"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Esteban Corrales"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Yerry Soto"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Gustavo Murillo"
+      }
+    ]
+  },
+  {
+    "codigo": "FI1101",
+    "nombre": "Física General I",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [
+      "Cálculo Diferencial e Integral"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Dennis Murillo"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Gustavo Murillo"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Juan Pineda"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jennifer Elizondo"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Jennifer Elizondo"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Iván Vargas"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Juan Pineda"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Esteban Corrales"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Esteban Corrales"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Roy Moya"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Michael Cambronero"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Ernesto Montero"
+      },
+      {
+        "numero": 15,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Ana Segura"
+      },
+      {
+        "numero": 17,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Francisco Rojas"
+      },
+      {
+        "numero": 18,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Ana Segura"
+      },
+      {
+        "numero": 19,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Francisco Rojas"
+      },
+      {
+        "numero": 20,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Ana Segura"
+      }
+    ]
+  },
+  {
+    "codigo": "CS1502",
+    "nombre": "Introducción a la Técnica Ciencia y Tecnología",
+    "creditos": 1,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Leonardo Ortiz"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Alexander Bojorge"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Alexander Bojorge"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Mauricio Garro"
+      }
+    ]
+  },
+  {
+    "codigo": "SE1100",
+    "nombre": "Actividad Cultural I",
+    "creditos": 0,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "actividad": "Artes dramáticas",
+        "codigoActividad": "SE1101",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Alexandra De Simone"
+      },
+      {
+        "numero": 2,
+        "actividad": "Artes dramáticas",
+        "codigoActividad": "SE1101",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Andrea Gómez"
+      },
+      {
+        "numero": 1,
+        "actividad": "Acción social",
+        "codigoActividad": "SE1102",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Sofía Valerín"
+      },
+      {
+        "numero": 2,
+        "actividad": "Acción social",
+        "codigoActividad": "SE1102",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Iván Barrantes"
+      },
+      {
+        "numero": 5,
+        "actividad": "Acción social",
+        "codigoActividad": "SE1102",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Sofía Valerín"
+      },
+      {
+        "numero": 6,
+        "actividad": "Acción social",
+        "codigoActividad": "SE1102",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Iván Barrantes"
+      },
+      {
+        "numero": 1,
+        "actividad": "Danza",
+        "codigoActividad": "SE1103",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jorge Quesada"
+      },
+      {
+        "numero": 1,
+        "actividad": "Artes visuales",
+        "codigoActividad": "SE1104",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Nelson Díaz"
+      },
+      {
+        "numero": 2,
+        "actividad": "Artes visuales",
+        "codigoActividad": "SE1104",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Nelson Díaz"
+      },
+      {
+        "numero": 1,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Elena Castillo"
+      },
+      {
+        "numero": 2,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Monge"
+      },
+      {
+        "numero": 5,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Vinicio Meza"
+      },
+      {
+        "numero": 6,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Vinicio Meza"
+      },
+      {
+        "numero": 7,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Luis Monge"
+      },
+      {
+        "numero": 8,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Elena Castillo"
+      },
+      {
+        "numero": 1,
+        "actividad": "Apreciación literaria",
+        "codigoActividad": "SE1106",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Arnoldo Ramos"
+      },
+      {
+        "numero": 1,
+        "actividad": "Apreciación de cine",
+        "codigoActividad": "SE1107",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Alicia Coto"
+      },
+      {
+        "numero": 2,
+        "actividad": "Apreciación de cine",
+        "codigoActividad": "SE1107",
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Nelson Díaz"
+      },
+      {
+        "numero": 1,
+        "actividad": "Dinámica de la cultura",
+        "codigoActividad": "SE1109",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Laura Sancho"
+      },
+      {
+        "numero": 2,
+        "actividad": "Dinámica de la cultura",
+        "codigoActividad": "SE1109",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Laura Sancho"
+      }
+    ]
+  },
+  {
+    "codigo": "SE1200",
+    "nombre": "Actividad Deportiva I",
+    "creditos": 0,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "actividad": "Atletismo",
+        "codigoActividad": "SE1201",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Johnny Loría"
+      },
+      {
+        "numero": 2,
+        "actividad": "Atletismo",
+        "codigoActividad": "SE1201",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Johnny Loría"
+      },
+      {
+        "numero": 1,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Biery Loaiza"
+      },
+      {
+        "numero": 2,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Biery Loaiza"
+      },
+      {
+        "numero": 5,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Fernando Bogantes"
+      },
+      {
+        "numero": 6,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Lisbeth Sánchez"
+      },
+      {
+        "numero": 7,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Lisbeth Sánchez"
+      },
+      {
+        "numero": 8,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Lisbeth Sánchez"
+      },
+      {
+        "numero": 9,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Miguel Méndez"
+      },
+      {
+        "numero": 1,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Rodrigo Quirós"
+      },
+      {
+        "numero": 2,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Biery Loaiza"
+      },
+      {
+        "numero": 5,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Gustavo Cabrera"
+      },
+      {
+        "numero": 6,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Rodrigo Quirós"
+      },
+      {
+        "numero": 7,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jorge Vega"
+      },
+      {
+        "numero": 1,
+        "actividad": "Acondicionamiento físico",
+        "codigoActividad": "SE1206",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Johnny Loría"
+      },
+      {
+        "numero": 2,
+        "actividad": "Acondicionamiento físico",
+        "codigoActividad": "SE1206",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jhonny Ortega"
+      },
+      {
+        "numero": 5,
+        "actividad": "Acondicionamiento físico",
+        "codigoActividad": "SE1206",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jorge Vega"
+      },
+      {
+        "numero": 6,
+        "actividad": "Acondicionamiento físico",
+        "codigoActividad": "SE1206",
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Alberto Travieso"
+      },
+      {
+        "numero": 1,
+        "actividad": "Béisbol-softbol",
+        "codigoActividad": "SE1209",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Miguel Méndez"
+      },
+      {
+        "numero": 2,
+        "actividad": "Béisbol-softbol",
+        "codigoActividad": "SE1209",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jorge Vega"
+      },
+      {
+        "numero": 1,
+        "actividad": "Ajedrez",
+        "codigoActividad": "SE1218",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Nelson Cordero"
+      },
+      {
+        "numero": 1,
+        "actividad": "Baloncesto recreativo",
+        "codigoActividad": "SE1219",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Gustavo Cabrera"
+      },
+      {
+        "numero": 2,
+        "actividad": "Baloncesto recreativo",
+        "codigoActividad": "SE1219",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Fabián Marín"
+      },
+      {
+        "numero": 1,
+        "actividad": "Futbol I",
+        "codigoActividad": "SE1221",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Daniel Jiménez"
+      },
+      {
+        "numero": 1,
+        "actividad": "Futbol sala",
+        "codigoActividad": "SE1222",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jhonny Ortega"
+      },
+      {
+        "numero": 2,
+        "actividad": "Futbol sala",
+        "codigoActividad": "SE1222",
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jhonny Ortega"
+      }
+    ]
+  },
+  {
+    "codigo": "SE1400",
+    "nombre": "Actividad Cultural-Deportiva",
+    "creditos": 0,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "actividad": "Artes dramáticas",
+        "codigoActividad": "SE1101",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Alexandra De Simone"
+      },
+      {
+        "numero": 2,
+        "actividad": "Artes dramáticas",
+        "codigoActividad": "SE1101",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Andrea Gómez"
+      },
+      {
+        "numero": 1,
+        "actividad": "Acción social",
+        "codigoActividad": "SE1102",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Sofía Valerín"
+      },
+      {
+        "numero": 2,
+        "actividad": "Acción social",
+        "codigoActividad": "SE1102",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Iván Barrantes"
+      },
+      {
+        "numero": 5,
+        "actividad": "Acción social",
+        "codigoActividad": "SE1102",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Sofía Valerín"
+      },
+      {
+        "numero": 6,
+        "actividad": "Acción social",
+        "codigoActividad": "SE1102",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Iván Barrantes"
+      },
+      {
+        "numero": 1,
+        "actividad": "Danza",
+        "codigoActividad": "SE1103",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jorge Quesada"
+      },
+      {
+        "numero": 1,
+        "actividad": "Artes visuales",
+        "codigoActividad": "SE1104",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Nelson Díaz"
+      },
+      {
+        "numero": 2,
+        "actividad": "Artes visuales",
+        "codigoActividad": "SE1104",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Nelson Díaz"
+      },
+      {
+        "numero": 1,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Elena Castillo"
+      },
+      {
+        "numero": 2,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Monge"
+      },
+      {
+        "numero": 5,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Vinicio Meza"
+      },
+      {
+        "numero": 6,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Vinicio Meza"
+      },
+      {
+        "numero": 7,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Luis Monge"
+      },
+      {
+        "numero": 8,
+        "actividad": "Artes musicales",
+        "codigoActividad": "SE1105",
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Elena Castillo"
+      },
+      {
+        "numero": 1,
+        "actividad": "Apreciación literaria",
+        "codigoActividad": "SE1106",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Arnoldo Ramos"
+      },
+      {
+        "numero": 1,
+        "actividad": "Apreciación de cine",
+        "codigoActividad": "SE1107",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Alicia Coto"
+      },
+      {
+        "numero": 2,
+        "actividad": "Apreciación de cine",
+        "codigoActividad": "SE1107",
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Nelson Díaz"
+      },
+      {
+        "numero": 1,
+        "actividad": "Dinámica de la cultura",
+        "codigoActividad": "SE1109",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Laura Sancho"
+      },
+      {
+        "numero": 2,
+        "actividad": "Dinámica de la cultura",
+        "codigoActividad": "SE1109",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Laura Sancho"
+      },
+      {
+        "numero": 1,
+        "actividad": "Atletismo",
+        "codigoActividad": "SE1201",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Johnny Loría"
+      },
+      {
+        "numero": 2,
+        "actividad": "Atletismo",
+        "codigoActividad": "SE1201",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Johnny Loría"
+      },
+      {
+        "numero": 1,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Biery Loaiza"
+      },
+      {
+        "numero": 2,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Biery Loaiza"
+      },
+      {
+        "numero": 5,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Fernando Bogantes"
+      },
+      {
+        "numero": 6,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Lisbeth Sánchez"
+      },
+      {
+        "numero": 7,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Lisbeth Sánchez"
+      },
+      {
+        "numero": 8,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Lisbeth Sánchez"
+      },
+      {
+        "numero": 9,
+        "actividad": "Natación",
+        "codigoActividad": "SE1204",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Miguel Méndez"
+      },
+      {
+        "numero": 1,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Rodrigo Quirós"
+      },
+      {
+        "numero": 2,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Biery Loaiza"
+      },
+      {
+        "numero": 5,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Gustavo Cabrera"
+      },
+      {
+        "numero": 6,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Rodrigo Quirós"
+      },
+      {
+        "numero": 7,
+        "actividad": "Juegos y deportes en conjunto",
+        "codigoActividad": "SE1205",
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jorge Vega"
+      },
+      {
+        "numero": 1,
+        "actividad": "Acondicionamiento físico",
+        "codigoActividad": "SE1206",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Johnny Loría"
+      },
+      {
+        "numero": 2,
+        "actividad": "Acondicionamiento físico",
+        "codigoActividad": "SE1206",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jhonny Ortega"
+      },
+      {
+        "numero": 5,
+        "actividad": "Acondicionamiento físico",
+        "codigoActividad": "SE1206",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jorge Vega"
+      },
+      {
+        "numero": 6,
+        "actividad": "Acondicionamiento físico",
+        "codigoActividad": "SE1206",
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Alberto Travieso"
+      },
+      {
+        "numero": 1,
+        "actividad": "Béisbol-softbol",
+        "codigoActividad": "SE1209",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Miguel Méndez"
+      },
+      {
+        "numero": 2,
+        "actividad": "Béisbol-softbol",
+        "codigoActividad": "SE1209",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jorge Vega"
+      },
+      {
+        "numero": 1,
+        "actividad": "Ajedrez",
+        "codigoActividad": "SE1218",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Nelson Cordero"
+      },
+      {
+        "numero": 1,
+        "actividad": "Baloncesto recreativo",
+        "codigoActividad": "SE1219",
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Gustavo Cabrera"
+      },
+      {
+        "numero": 2,
+        "actividad": "Baloncesto recreativo",
+        "codigoActividad": "SE1219",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Fabián Marín"
+      },
+      {
+        "numero": 1,
+        "actividad": "Futbol I",
+        "codigoActividad": "SE1221",
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Daniel Jiménez"
+      },
+      {
+        "numero": 1,
+        "actividad": "Futbol sala",
+        "codigoActividad": "SE1222",
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jhonny Ortega"
+      },
+      {
+        "numero": 2,
+        "actividad": "Futbol sala",
+        "codigoActividad": "SE1222",
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Jhonny Ortega"
+      }
+    ]
+  }
+]
