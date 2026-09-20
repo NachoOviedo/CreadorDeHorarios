@@ -4,10 +4,9 @@
 #include "structEstudiante.h"
 #include "structCatalogoCursos.h"
 
-void verificarRequisitosCumplidos(Curso *c, const Estudiante estudiante);
+void verificarRequisitosCumplidos(Curso *c, const Catalogo *catalogo, const Estudiante *estudiante);
 
 void evaluarElegibilidadCatalogo(Catalogo *catalogo, const Estudiante *estudiante);
 
-void hayChoque();
 
 #endif //CREADORDEHORARIOS_PROCESADOR_H

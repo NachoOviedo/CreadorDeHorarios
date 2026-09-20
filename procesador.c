@@ -4,7 +4,21 @@
 #include "structCatalogoCursos.h"
 #include "structEstudiante.h"
 
-void verificarRequisitosCumplidos(Curso *c, const Estudiante *estudiante)
+static const char *buscarCodigoPorNombre(const Catalogo *catalogo, const char *nombre)
+{
+    int i = 0;
+    while (i < catalogo->cantidadCursos)
+    {
+        if (strcmp(catalogo->cursos[i].nombre, nombre) == 0)
+        {
+            return catalogo->cursos[i].codigo;
+        }
+        i++;
+    }
+    return NULL; // no se encontró como curso en el catálogo
+}
+
+void verificarRequisitosCumplidos(Curso *c, const Catalogo *catalogo, const Estudiante *estudiante)
 {
     int i = 0;
     while (i < estudiante->cantidadCursosAprobados)
@@ -27,15 +41,19 @@ void verificarRequisitosCumplidos(Curso *c, const Estudiante *estudiante)
     int n = 0;
     while (n < c->cantidadRequisitos)
     {
-        i = 0;
-        while (i < estudiante->cantidadCursosAprobados)
+        const char *codigoRequisito = buscarCodigoPorNombre(catalogo, c->requisitos[n]);
+        if (codigoRequisito != NULL)
         {
-            if (strcmp(estudiante->cursosAprobados[i], c->requisitos[n]) == 0)
+            i = 0;
+            while (i < estudiante->cantidadCursosAprobados)
             {
-                count++;
-                break;
+                if (strcmp(estudiante->cursosAprobados[i], codigoRequisito) == 0)
+                {
+                    count++;
+                    break;
+                }
+                i++;
             }
-            i++;
         }
         n++;
     }
@@ -57,13 +75,15 @@ void verificarCorrequisitos(Curso *curso, Catalogo *catalogo, const Estudiante *
     int i = 0;
     while (i < curso->cantidadCorrequisitos)
     {
-        int n = 0; // Aquí encuentra la posición del correquisito
-        while (n < catalogo->cantidadCursos && strcmp(curso->correquisitos[i], catalogo->cursos[n].codigo) != 0)
+        const char *codigoCorrequisito = buscarCodigoPorNombre(catalogo, curso->correquisitos[i]);
+        int n = 0;
+        while (codigoCorrequisito != NULL && n < catalogo->cantidadCursos
+               && strcmp(codigoCorrequisito, catalogo->cursos[n].codigo) != 0)
         {
             n++;
         }
 
-        if (n < catalogo->cantidadCursos && catalogo->cursos[n].puedeMatricular > 0)
+        if (codigoCorrequisito != NULL && n < catalogo->cantidadCursos && catalogo->cursos[n].puedeMatricular > 0)
         {
             count++;
         }
@@ -79,7 +99,7 @@ void evaluarElegibilidadCatalogo(Catalogo *catalogo, const Estudiante *estudiant
     int i = 0;
     while (i < catalogo->cantidadCursos)
     {
-        verificarRequisitosCumplidos(&catalogo->cursos[i], estudiante);
+        verificarRequisitosCumplidos(&catalogo->cursos[i], catalogo, estudiante);
         i++;
     }
 

@@ -4,6 +4,7 @@
 #include "structEstudiante.h"
 #include "parser.h"
 #include "constantes.h"
+#include "procesador.h"
 
 static void imprimirCatalogo(const Catalogo *catalogo) {
     printf("=== Catalogo cargado: %d cursos ===\n\n", catalogo->cantidadCursos);
@@ -30,8 +31,10 @@ static void imprimirCatalogo(const Catalogo *catalogo) {
             }
             printf("\n");
         }
+        printf("    puedeMatricular: %d\n", c->puedeMatricular);
         printf("\n");
     }
+    
 }
 
 static void imprimirEstudiante(const Estudiante *estudiante) {
@@ -56,7 +59,6 @@ int main(int argc, char *argv[]) {
         fprintf(stderr, "No se pudo cargar el catalogo (codigo de error %d)\n", resultadoCatalogo);
         return 1;
     }
-    imprimirCatalogo(&catalogo);
 
     Estudiante estudiante;
     int resultadoHistorial = cargarHistorialEstudiante(rutaHistorial, &estudiante);
@@ -64,6 +66,9 @@ int main(int argc, char *argv[]) {
         fprintf(stderr, "No se pudo cargar el historial (codigo de error %d)\n", resultadoHistorial);
         return 1;
     }
+
+    evaluarElegibilidadCatalogo(&catalogo, &estudiante);
+    imprimirCatalogo(&catalogo);
     imprimirEstudiante(&estudiante);
 
     return 0;
