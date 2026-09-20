@@ -2,7 +2,7 @@
 #define CONSTANTES_H
 
 #define MAX_CURSOS            60
-#define MAX_GRUPOS_POR_CURSO   6
+#define MAX_GRUPOS_POR_CURSO   100
 #define MAX_CLASES_POR_GRUPO   3
 #define MAX_CURSOS_APROBADOS  60
 
@@ -20,5 +20,7 @@
 #define ERROR_JSON_INVALIDO     2
 #define ERROR_CAMPO_FALTANTE    3
 #define ERROR_CAPACIDAD_MAXIMA  4
+
+#define MAX_CHOQUES 10000
 
 #endif

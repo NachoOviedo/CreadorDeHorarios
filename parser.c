@@ -208,6 +208,8 @@ int cargarCatalogo(const char *rutaArchivo, Catalogo *catalogo) {
     }
     catalogo->cantidadCursos = cantidadCursos;
 
+    catalogo->cantidadChoques = 0;
+
     cJSON_Delete(raiz);
     return OK;
 }

@@ -4,6 +4,7 @@
 #include "structEstudiante.h"
 #include "parser.h"
 #include "constantes.h"
+#include "comprobarChoques.h"
 
 static void imprimirCatalogo(const Catalogo *catalogo) {
     printf("=== Catalogo cargado: %d cursos ===\n\n", catalogo->cantidadCursos);
@@ -15,6 +16,11 @@ static void imprimirCatalogo(const Catalogo *catalogo) {
 
         for (int j = 0; j < c->cantidadGrupos; j++) {
             const Grupo *g = &c->grupos[j];
+            
+            if (g->choca) {
+                printf("    *** CHOCA ***\n");
+            }
+
             printf("    grupo %d (%s): ", g->numGrupo, g->profesor);
             for (int k = 0; k < g->cantidadClases; k++) {
                 const Bloque *b = &g->clases[k];
@@ -32,6 +38,14 @@ static void imprimirCatalogo(const Catalogo *catalogo) {
         }
         printf("\n");
     }
+
+    printf("=== Choques detectados: %d ===\n", catalogo->cantidadChoques);
+    for (int i = 0; i < catalogo->cantidadChoques; i++) {
+        const ParChoque *p = &catalogo->choques[i];
+        printf("  %s(grupo %d) <-> %s(grupo %d)\n",
+            p->codigoCursoA, p->numGrupoA, p->codigoCursoB, p->numGrupoB);
+    }
+
 }
 
 static void imprimirEstudiante(const Estudiante *estudiante) {
@@ -56,6 +70,9 @@ int main(int argc, char *argv[]) {
         fprintf(stderr, "No se pudo cargar el catalogo (codigo de error %d)\n", resultadoCatalogo);
         return 1;
     }
+    
+    detectarChoques(&catalogo);
+
     imprimirCatalogo(&catalogo);
 
     Estudiante estudiante;
