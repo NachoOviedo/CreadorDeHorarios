@@ -5,6 +5,7 @@
 #include "parser.h"
 #include "constantes.h"
 #include "procesador.h"
+#include "exportador.h"
 
 static void imprimirCatalogo(const Catalogo *catalogo) {
     printf("=== Catalogo cargado: %d cursos ===\n\n", catalogo->cantidadCursos);
@@ -70,6 +71,13 @@ int main(int argc, char *argv[]) {
     evaluarElegibilidadCatalogo(&catalogo, &estudiante);
     imprimirCatalogo(&catalogo);
     imprimirEstudiante(&estudiante);
+
+    int resultadoExport = exportarCatalogo(&catalogo, "Output/catalogoExp.json");
+    if (resultadoExport != OK) {
+        fprintf(stderr, "No se pudo exportar el catalogo (codigo de error %d)\n", resultadoExport);
+        return 1;
+    }
+    printf("Catalogo exportado a Output/catalogoExp.json\n");
 
     return 0;
 }
