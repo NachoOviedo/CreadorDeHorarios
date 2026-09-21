@@ -5,6 +5,8 @@
 #include "parser.h"
 #include "constantes.h"
 #include "comprobarChoques.h"
+#include "procesador.h"
+#include "exportador.h"
 
 static void imprimirCatalogo(const Catalogo *catalogo) {
     printf("=== Catalogo cargado: %d cursos ===\n\n", catalogo->cantidadCursos);
@@ -36,6 +38,7 @@ static void imprimirCatalogo(const Catalogo *catalogo) {
             }
             printf("\n");
         }
+        printf("    puedeMatricular: %d\n", c->puedeMatricular);
         printf("\n");
     }
 
@@ -46,6 +49,7 @@ static void imprimirCatalogo(const Catalogo *catalogo) {
             p->codigoCursoA, p->numGrupoA, p->codigoCursoB, p->numGrupoB);
     }
 
+    
 }
 
 static void imprimirEstudiante(const Estudiante *estudiante) {
@@ -73,15 +77,23 @@ int main(int argc, char *argv[]) {
     
     detectarChoques(&catalogo);
 
-    imprimirCatalogo(&catalogo);
-
     Estudiante estudiante;
     int resultadoHistorial = cargarHistorialEstudiante(rutaHistorial, &estudiante);
     if (resultadoHistorial != OK) {
         fprintf(stderr, "No se pudo cargar el historial (codigo de error %d)\n", resultadoHistorial);
         return 1;
     }
+
+    evaluarElegibilidadCatalogo(&catalogo, &estudiante);
+    imprimirCatalogo(&catalogo);
     imprimirEstudiante(&estudiante);
+
+    int resultadoExport = exportarCatalogo(&catalogo, "Output/catalogoExp.json");
+    if (resultadoExport != OK) {
+        fprintf(stderr, "No se pudo exportar el catalogo (codigo de error %d)\n", resultadoExport);
+        return 1;
+    }
+    printf("Catalogo exportado a Output/catalogoExp.json\n");
 
     return 0;
 }

@@ -12,5 +12,8 @@ add_executable(CreadorDeHorarios
         mainDePrueba.c
         parser.c
         comprobarChoques.c
+        exportador.c
         src/cJSON.c
+        procesador.h
+        procesador.c
 )
