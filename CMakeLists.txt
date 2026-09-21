@@ -15,4 +15,6 @@ add_executable(CreadorDeHorarios
         comprobarChoques.c
         exportador.c
         src/cJSON.c
+        procesador.h
+        procesador.c
 )

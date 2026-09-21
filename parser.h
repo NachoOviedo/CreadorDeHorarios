@@ -8,7 +8,7 @@
 #include "structCatalogoCursos.h"
 #include "structEstudiante.h"
 
-int cargarCatalogo( const char *ruta, Catalogo *catalgo);
+int cargarCatalogo( const char *ruta, Catalogo *catalogo);
 
 int cargarHistorialEstudiante(const char *rutaArchivo, Estudiante *estudiante);
 

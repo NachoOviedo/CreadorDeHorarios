@@ -13,4 +13,5 @@ typedef struct {
     char cursosAprobados[MAX_CURSOS_APROBADOS][MAX_LEN_CODIGO];
     int  cantidadCursosAprobados;
 } Estudiante;
+
 #endif //CREADORDEHORARIOS_STRUCTESTUDIANTE_H
