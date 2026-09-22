@@ -1,6 +1,7 @@
 #ifndef CONSTANTES_H
 #define CONSTANTES_H
 
+#define CANTIDAD_CARRERAS     2
 #define MAX_CURSOS            60
 #define MAX_GRUPOS_POR_CURSO   100
 #define MAX_CLASES_POR_GRUPO   3

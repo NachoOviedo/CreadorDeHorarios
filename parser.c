@@ -243,15 +243,17 @@ static void escritorDeCodigos(cJSON *arregloJson,
 int llenarEstudiante(cJSON *estudianteJson, Estudiante *estudiante) {
     cJSON *carnet = cJSON_GetObjectItemCaseSensitive(estudianteJson, "carnet");
     cJSON *nombre = cJSON_GetObjectItemCaseSensitive(estudianteJson, "nombre");
+    cJSON *carrera = cJSON_GetObjectItemCaseSensitive(estudianteJson, "carrera");
     cJSON *cursosAprobados = cJSON_GetObjectItemCaseSensitive(estudianteJson, "cursosAprobados");
 
-    if (!cJSON_IsString(carnet) || !cJSON_IsString(nombre)) {
+    if (!cJSON_IsString(carnet) || !cJSON_IsString(nombre) || !cJSON_IsString(carrera)) {
         fprintf(stderr, "Error: historial con campos obligatorios faltantes\n");
         return 0;
     }
 
     copiarString(estudiante->carnet, MAX_LEN_CARNET, carnet->valuestring);
     copiarString(estudiante->nombre, MAX_LEN_NOMBRE, nombre->valuestring);
+    copiarString(estudiante->carrera, MAX_LEN_NOMBRE, carrera->valuestring);
     escritorDeCodigos(cursosAprobados, estudiante->cursosAprobados, MAX_CURSOS_APROBADOS,
                        &estudiante->cantidadCursosAprobados);
 

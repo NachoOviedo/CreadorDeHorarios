@@ -7,6 +7,7 @@
 typedef struct {
     char carnet[MAX_LEN_CARNET];
     char nombre[MAX_LEN_NOMBRE];
+    char carrera[MAX_LEN_NOMBRE];
     char cursosAprobados[MAX_CURSOS_APROBADOS][MAX_LEN_CODIGO];
     int  cantidadCursosAprobados;
 } Estudiante;
