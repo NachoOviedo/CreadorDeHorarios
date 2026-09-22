@@ -9,7 +9,7 @@
 
 /*----------------------------------------Parser Catalogo-----------------------------------------*/
 
-//funciones provadas
+//funciones privadas
 
 /* Copia segura: siempre deja el string terminado en '\0', nunca se
  * desborda el buffer destino aunque el origen sea más largo. */
@@ -207,6 +207,8 @@ int cargarCatalogo(const char *rutaArchivo, Catalogo *catalogo) {
         }
     }
     catalogo->cantidadCursos = cantidadCursos;
+
+    catalogo->cantidadChoques = 0;
 
     cJSON_Delete(raiz);
     return OK;

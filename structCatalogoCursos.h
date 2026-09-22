@@ -33,10 +33,19 @@ typedef struct
     int puedeMatricular;
 } Curso;
 
+typedef struct {
+    char codigoCursoA[MAX_LEN_CODIGO];
+    int numGrupoA;
+    char codigoCursoB[MAX_LEN_CODIGO];
+    int numGrupoB;
+} ParChoque;
+
 typedef struct
 {
     Curso cursos[MAX_CURSOS];
     int cantidadCursos;
+    ParChoque choques[MAX_CHOQUES];
+    int cantidadChoques;
 } Catalogo;
 
 #endif //CREADORDEHORARIOS_CURSOS_H

@@ -11,7 +11,6 @@ include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/src)
 add_executable(CreadorDeHorarios
         mainDePrueba.c
         parser.c
-        procesador.c
         comprobarChoques.c
         exportador.c
         src/cJSON.c

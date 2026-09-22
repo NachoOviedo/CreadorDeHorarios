@@ -1,6 +1,3 @@
-//
-// Created by nacho on 9/10/2026.
-//
 
 #ifndef CREADORDEHORARIOS_PARSER_H
 #define CREADORDEHORARIOS_PARSER_H
