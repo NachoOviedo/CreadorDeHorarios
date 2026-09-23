@@ -17,7 +17,7 @@ static cJSON *grupoAJson(const Grupo *g)
 {
     cJSON *obj = cJSON_CreateObject();
     cJSON_AddNumberToObject(obj, "numero", g->numGrupo);
-    cJSON_AddStringToObject(obj, "profesor", g->profesor);
+    cJSON_AddStringToObject(obj, "Profesor", g->profesor);
     cJSON_AddNumberToObject(obj, "choca", g->choca);
 
     cJSON *clases = cJSON_CreateArray();
