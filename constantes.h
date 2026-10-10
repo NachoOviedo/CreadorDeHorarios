@@ -12,6 +12,7 @@
 #define MAX_LEN_DIA           12
 #define MAX_LEN_RUTA         256
 #define MAX_LEN_CARNET        11  //Carnet mas terminador \0
+#define MAX_LEN_CARRERA 40
 
 #define MAX_REQUISITOS         6
 #define MAX_CORREQUISITOS      4

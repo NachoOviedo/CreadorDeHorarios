@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "cJSON.h"
 #include "constantes.h"
@@ -45,6 +46,7 @@ static cJSON *cursoAJson(const Curso *c)
     cJSON *obj = cJSON_CreateObject();
     cJSON_AddStringToObject(obj, "codigo", c->codigo);
     cJSON_AddStringToObject(obj, "nombre", c->nombre);
+    cJSON_AddStringToObject(obj, "carrera", c->carrera);
     cJSON_AddNumberToObject(obj, "creditos", c->numCreditos);
     cJSON_AddNumberToObject(obj, "puedeMatricular", c->puedeMatricular);
 
