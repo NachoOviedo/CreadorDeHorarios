@@ -126,7 +126,7 @@ static int llenarGrupo(cJSON *grupoJson, Grupo *grupo) {
 }
 
 /* Llena un Curso completo a partir de un objeto del arreglo raiz. */
-static int llenarCurso(cJSON *cursoJson, Curso *curso) {
+static int llenarCurso(cJSON *cursoJson, const char *carrera, Curso *curso) {   
     cJSON *codigo = cJSON_GetObjectItemCaseSensitive(cursoJson, "codigo");
     cJSON *nombre = cJSON_GetObjectItemCaseSensitive(cursoJson, "nombre");
     cJSON *creditos = cJSON_GetObjectItemCaseSensitive(cursoJson, "creditos");
@@ -143,6 +143,7 @@ static int llenarCurso(cJSON *cursoJson, Curso *curso) {
 
     copiarString(curso->codigo, MAX_LEN_CODIGO, codigo->valuestring);
     copiarString(curso->nombre, MAX_LEN_NOMBRE, nombre->valuestring);
+    copiarString(curso->carrera, MAX_LEN_CARRERA, carrera);
     curso->numCreditos = (int)creditos->valuedouble;
 
     llenarArregloStrings(requisitos, curso->requisitos, MAX_REQUISITOS,
@@ -171,7 +172,7 @@ static int llenarCurso(cJSON *cursoJson, Curso *curso) {
 }
 
 /* ---- funcion publica ---- */
-int cargarCatalogo(const char *rutaArchivo, Catalogo *catalogo) {
+int cargarCatalogo(const char *rutaArchivo, const char *carrera, Catalogo *catalogo) {
     char *contenido = leerArchivoCompleto(rutaArchivo);
     if (contenido == NULL) {
         fprintf(stderr, "Error: no se pudo abrir '%s'\n", rutaArchivo);
@@ -202,7 +203,7 @@ int cargarCatalogo(const char *rutaArchivo, Catalogo *catalogo) {
                     MAX_CURSOS);
             break;
         }
-        if (llenarCurso(cursoJson, &catalogo->cursos[cantidadCursos])) {
+        if (llenarCurso(cursoJson, carrera, &catalogo->cursos[cantidadCursos])) {
             cantidadCursos++;
         }
     }

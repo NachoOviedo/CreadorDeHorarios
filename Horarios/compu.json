@@ -40,7 +40,6 @@
       }
     ]
   },
-
   {
     "codigo": "CE1104",
     "nombre": "Fundamentos de Sistemas Computacionales",
@@ -66,7 +65,6 @@
       }
     ]
   },
-
   {
     "codigo": "CE1103",
     "nombre": "Algoritmos y Estructuras de Datos I",
@@ -75,7 +73,7 @@
       "Introducción a la Programación",
       "Fundamentos de Sistemas Computacionales",
       "Matemática Discreta"
-      ],
+    ],
     "correquisitos": [],
     "grupos": [
       {
@@ -128,14 +126,13 @@
       }
     ]
   },
-
   {
     "codigo": "CE1105",
     "nombre": "Principios de Modelado en Ingeniería",
     "creditos": 3,
     "requisitos": [
       "Fundamentos de Sistemas Computacionales"
-      ],
+    ],
     "correquisitos": [],
     "grupos": [
       {
@@ -188,7 +185,6 @@
       }
     ]
   },
-
   {
     "codigo": "CE2103",
     "nombre": "Algoritmos y Estructuras de Datos II",
@@ -196,7 +192,7 @@
     "requisitos": [
       "Algoritmos y Estructuras de Datos I",
       "Principios de Modelado en Ingeniería"
-      ],
+    ],
     "correquisitos": [],
     "grupos": [
       {
@@ -217,14 +213,13 @@
       }
     ]
   },
-
   {
     "codigo": "CE2201",
     "nombre": "Laboratorio de Circuitos Eléctricos",
     "creditos": 1,
     "requisitos": [
       "Laboratorio de Física General II"
-      ],
+    ],
     "correquisitos": [],
     "grupos": [
       {
@@ -251,15 +246,13 @@
       }
     ]
   },
-
-
   {
     "codigo": "CE1106",
     "nombre": "Paradigmas de Programación",
     "creditos": 3,
     "requisitos": [
       "Algoritmos y Estructuras de Datos II"
-      ],
+    ],
     "correquisitos": [],
     "grupos": [
       {
@@ -296,7 +289,6 @@
       }
     ]
   },
-
   {
     "codigo": "EL2113",
     "nombre": "Circuitos Eléctricos en Corriente Continua",
@@ -304,7 +296,7 @@
     "requisitos": [
       "Cálculo Diferencial e Integral",
       "Física General I"
-      ],
+    ],
     "correquisitos": [],
     "grupos": [
       {
@@ -368,17 +360,16 @@
       }
     ]
   },
-
   {
     "codigo": "EL2114",
     "nombre": "Circuitos Eléctricos en Corriente Alterna",
     "creditos": 4,
     "requisitos": [
       "Circuitos Eléctricos en Corriente Continua"
-      ],
+    ],
     "correquisitos": [
       "Elementos Activos"
-      ],
+    ],
     "grupos": [
       {
         "numero": 1,
@@ -446,14 +437,13 @@
       }
     ]
   },
-
   {
     "codigo": "EL2207",
     "nombre": "Elementos Activos",
     "creditos": 4,
     "requisitos": [
       "Circuitos Eléctricos en Corriente Continua"
-      ],
+    ],
     "correquisitos": [],
     "grupos": [
       {
@@ -528,7 +518,7 @@
     "creditos": 4,
     "requisitos": [
       "Matemática General"
-      ],
+    ],
     "correquisitos": [],
     "grupos": [
       {
@@ -2916,7 +2906,7 @@
         "Profesor": "Andrea Gómez"
       },
       {
-        "numero": 1,
+        "numero": 3,
         "actividad": "Acción social",
         "codigoActividad": "SE1102",
         "clases": [
@@ -2929,7 +2919,7 @@
         "Profesor": "Sofía Valerín"
       },
       {
-        "numero": 2,
+        "numero": 4,
         "actividad": "Acción social",
         "codigoActividad": "SE1102",
         "clases": [
@@ -2968,7 +2958,7 @@
         "Profesor": "Iván Barrantes"
       },
       {
-        "numero": 1,
+        "numero": 7,
         "actividad": "Danza",
         "codigoActividad": "SE1103",
         "clases": [
@@ -2981,7 +2971,7 @@
         "Profesor": "Jorge Quesada"
       },
       {
-        "numero": 1,
+        "numero": 8,
         "actividad": "Artes visuales",
         "codigoActividad": "SE1104",
         "clases": [
@@ -2994,7 +2984,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 2,
+        "numero": 9,
         "actividad": "Artes visuales",
         "codigoActividad": "SE1104",
         "clases": [
@@ -3007,7 +2997,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 1,
+        "numero": 10,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3020,7 +3010,7 @@
         "Profesor": "Elena Castillo"
       },
       {
-        "numero": 2,
+        "numero": 11,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3033,7 +3023,7 @@
         "Profesor": "Luis Monge"
       },
       {
-        "numero": 5,
+        "numero": 12,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3046,7 +3036,7 @@
         "Profesor": "Vinicio Meza"
       },
       {
-        "numero": 6,
+        "numero": 13,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3059,7 +3049,7 @@
         "Profesor": "Vinicio Meza"
       },
       {
-        "numero": 7,
+        "numero": 14,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3072,7 +3062,7 @@
         "Profesor": "Luis Monge"
       },
       {
-        "numero": 8,
+        "numero": 15,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3085,7 +3075,7 @@
         "Profesor": "Elena Castillo"
       },
       {
-        "numero": 1,
+        "numero": 16,
         "actividad": "Apreciación literaria",
         "codigoActividad": "SE1106",
         "clases": [
@@ -3098,7 +3088,7 @@
         "Profesor": "Arnoldo Ramos"
       },
       {
-        "numero": 1,
+        "numero": 17,
         "actividad": "Apreciación de cine",
         "codigoActividad": "SE1107",
         "clases": [
@@ -3111,7 +3101,7 @@
         "Profesor": "Alicia Coto"
       },
       {
-        "numero": 2,
+        "numero": 18,
         "actividad": "Apreciación de cine",
         "codigoActividad": "SE1107",
         "clases": [
@@ -3124,7 +3114,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 1,
+        "numero": 19,
         "actividad": "Dinámica de la cultura",
         "codigoActividad": "SE1109",
         "clases": [
@@ -3137,7 +3127,7 @@
         "Profesor": "Laura Sancho"
       },
       {
-        "numero": 2,
+        "numero": 20,
         "actividad": "Dinámica de la cultura",
         "codigoActividad": "SE1109",
         "clases": [
@@ -3185,7 +3175,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 1,
+        "numero": 3,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3198,7 +3188,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 2,
+        "numero": 4,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3276,7 +3266,7 @@
         "Profesor": "Miguel Méndez"
       },
       {
-        "numero": 1,
+        "numero": 10,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3289,7 +3279,7 @@
         "Profesor": "Rodrigo Quirós"
       },
       {
-        "numero": 2,
+        "numero": 11,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3302,7 +3292,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 5,
+        "numero": 12,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3315,7 +3305,7 @@
         "Profesor": "Gustavo Cabrera"
       },
       {
-        "numero": 6,
+        "numero": 13,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3328,7 +3318,7 @@
         "Profesor": "Rodrigo Quirós"
       },
       {
-        "numero": 7,
+        "numero": 14,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3341,7 +3331,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 1,
+        "numero": 15,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3354,7 +3344,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 2,
+        "numero": 16,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3367,7 +3357,7 @@
         "Profesor": "Jhonny Ortega"
       },
       {
-        "numero": 5,
+        "numero": 17,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3380,7 +3370,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 6,
+        "numero": 18,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3393,7 +3383,7 @@
         "Profesor": "Alberto Travieso"
       },
       {
-        "numero": 1,
+        "numero": 19,
         "actividad": "Béisbol-softbol",
         "codigoActividad": "SE1209",
         "clases": [
@@ -3406,7 +3396,7 @@
         "Profesor": "Miguel Méndez"
       },
       {
-        "numero": 2,
+        "numero": 20,
         "actividad": "Béisbol-softbol",
         "codigoActividad": "SE1209",
         "clases": [
@@ -3419,7 +3409,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 1,
+        "numero": 21,
         "actividad": "Ajedrez",
         "codigoActividad": "SE1218",
         "clases": [
@@ -3432,7 +3422,7 @@
         "Profesor": "Nelson Cordero"
       },
       {
-        "numero": 1,
+        "numero": 22,
         "actividad": "Baloncesto recreativo",
         "codigoActividad": "SE1219",
         "clases": [
@@ -3445,7 +3435,7 @@
         "Profesor": "Gustavo Cabrera"
       },
       {
-        "numero": 2,
+        "numero": 23,
         "actividad": "Baloncesto recreativo",
         "codigoActividad": "SE1219",
         "clases": [
@@ -3458,7 +3448,7 @@
         "Profesor": "Fabián Marín"
       },
       {
-        "numero": 1,
+        "numero": 24,
         "actividad": "Futbol I",
         "codigoActividad": "SE1221",
         "clases": [
@@ -3471,7 +3461,7 @@
         "Profesor": "Daniel Jiménez"
       },
       {
-        "numero": 1,
+        "numero": 25,
         "actividad": "Futbol sala",
         "codigoActividad": "SE1222",
         "clases": [
@@ -3484,7 +3474,7 @@
         "Profesor": "Jhonny Ortega"
       },
       {
-        "numero": 2,
+        "numero": 26,
         "actividad": "Futbol sala",
         "codigoActividad": "SE1222",
         "clases": [
@@ -3532,7 +3522,7 @@
         "Profesor": "Andrea Gómez"
       },
       {
-        "numero": 1,
+        "numero": 3,
         "actividad": "Acción social",
         "codigoActividad": "SE1102",
         "clases": [
@@ -3545,7 +3535,7 @@
         "Profesor": "Sofía Valerín"
       },
       {
-        "numero": 2,
+        "numero": 4,
         "actividad": "Acción social",
         "codigoActividad": "SE1102",
         "clases": [
@@ -3584,7 +3574,7 @@
         "Profesor": "Iván Barrantes"
       },
       {
-        "numero": 1,
+        "numero": 7,
         "actividad": "Danza",
         "codigoActividad": "SE1103",
         "clases": [
@@ -3597,7 +3587,7 @@
         "Profesor": "Jorge Quesada"
       },
       {
-        "numero": 1,
+        "numero": 8,
         "actividad": "Artes visuales",
         "codigoActividad": "SE1104",
         "clases": [
@@ -3610,7 +3600,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 2,
+        "numero": 9,
         "actividad": "Artes visuales",
         "codigoActividad": "SE1104",
         "clases": [
@@ -3623,7 +3613,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 1,
+        "numero": 10,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3636,7 +3626,7 @@
         "Profesor": "Elena Castillo"
       },
       {
-        "numero": 2,
+        "numero": 11,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3649,7 +3639,7 @@
         "Profesor": "Luis Monge"
       },
       {
-        "numero": 5,
+        "numero": 12,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3662,7 +3652,7 @@
         "Profesor": "Vinicio Meza"
       },
       {
-        "numero": 6,
+        "numero": 13,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3675,7 +3665,7 @@
         "Profesor": "Vinicio Meza"
       },
       {
-        "numero": 7,
+        "numero": 14,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3688,7 +3678,7 @@
         "Profesor": "Luis Monge"
       },
       {
-        "numero": 8,
+        "numero": 15,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -3701,7 +3691,7 @@
         "Profesor": "Elena Castillo"
       },
       {
-        "numero": 1,
+        "numero": 16,
         "actividad": "Apreciación literaria",
         "codigoActividad": "SE1106",
         "clases": [
@@ -3714,7 +3704,7 @@
         "Profesor": "Arnoldo Ramos"
       },
       {
-        "numero": 1,
+        "numero": 17,
         "actividad": "Apreciación de cine",
         "codigoActividad": "SE1107",
         "clases": [
@@ -3727,7 +3717,7 @@
         "Profesor": "Alicia Coto"
       },
       {
-        "numero": 2,
+        "numero": 18,
         "actividad": "Apreciación de cine",
         "codigoActividad": "SE1107",
         "clases": [
@@ -3740,7 +3730,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 1,
+        "numero": 19,
         "actividad": "Dinámica de la cultura",
         "codigoActividad": "SE1109",
         "clases": [
@@ -3753,7 +3743,7 @@
         "Profesor": "Laura Sancho"
       },
       {
-        "numero": 2,
+        "numero": 20,
         "actividad": "Dinámica de la cultura",
         "codigoActividad": "SE1109",
         "clases": [
@@ -3766,7 +3756,7 @@
         "Profesor": "Laura Sancho"
       },
       {
-        "numero": 1,
+        "numero": 21,
         "actividad": "Atletismo",
         "codigoActividad": "SE1201",
         "clases": [
@@ -3779,7 +3769,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 2,
+        "numero": 22,
         "actividad": "Atletismo",
         "codigoActividad": "SE1201",
         "clases": [
@@ -3792,7 +3782,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 1,
+        "numero": 23,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3805,7 +3795,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 2,
+        "numero": 24,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3818,7 +3808,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 5,
+        "numero": 25,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3831,7 +3821,7 @@
         "Profesor": "Fernando Bogantes"
       },
       {
-        "numero": 6,
+        "numero": 26,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3844,7 +3834,7 @@
         "Profesor": "Lisbeth Sánchez"
       },
       {
-        "numero": 7,
+        "numero": 27,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3857,7 +3847,7 @@
         "Profesor": "Lisbeth Sánchez"
       },
       {
-        "numero": 8,
+        "numero": 28,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3870,7 +3860,7 @@
         "Profesor": "Lisbeth Sánchez"
       },
       {
-        "numero": 9,
+        "numero": 29,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3883,7 +3873,7 @@
         "Profesor": "Miguel Méndez"
       },
       {
-        "numero": 1,
+        "numero": 30,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3896,7 +3886,7 @@
         "Profesor": "Rodrigo Quirós"
       },
       {
-        "numero": 2,
+        "numero": 31,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3909,7 +3899,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 5,
+        "numero": 32,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3922,7 +3912,7 @@
         "Profesor": "Gustavo Cabrera"
       },
       {
-        "numero": 6,
+        "numero": 33,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3935,7 +3925,7 @@
         "Profesor": "Rodrigo Quirós"
       },
       {
-        "numero": 7,
+        "numero": 34,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3948,7 +3938,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 1,
+        "numero": 35,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3961,7 +3951,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 2,
+        "numero": 36,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3974,7 +3964,7 @@
         "Profesor": "Jhonny Ortega"
       },
       {
-        "numero": 5,
+        "numero": 37,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3987,7 +3977,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 6,
+        "numero": 38,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -4000,7 +3990,7 @@
         "Profesor": "Alberto Travieso"
       },
       {
-        "numero": 1,
+        "numero": 39,
         "actividad": "Béisbol-softbol",
         "codigoActividad": "SE1209",
         "clases": [
@@ -4013,7 +4003,7 @@
         "Profesor": "Miguel Méndez"
       },
       {
-        "numero": 2,
+        "numero": 40,
         "actividad": "Béisbol-softbol",
         "codigoActividad": "SE1209",
         "clases": [
@@ -4026,7 +4016,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 1,
+        "numero": 41,
         "actividad": "Ajedrez",
         "codigoActividad": "SE1218",
         "clases": [
@@ -4039,7 +4029,7 @@
         "Profesor": "Nelson Cordero"
       },
       {
-        "numero": 1,
+        "numero": 42,
         "actividad": "Baloncesto recreativo",
         "codigoActividad": "SE1219",
         "clases": [
@@ -4052,7 +4042,7 @@
         "Profesor": "Gustavo Cabrera"
       },
       {
-        "numero": 2,
+        "numero": 43,
         "actividad": "Baloncesto recreativo",
         "codigoActividad": "SE1219",
         "clases": [
@@ -4065,7 +4055,7 @@
         "Profesor": "Fabián Marín"
       },
       {
-        "numero": 1,
+        "numero": 44,
         "actividad": "Futbol I",
         "codigoActividad": "SE1221",
         "clases": [
@@ -4078,7 +4068,7 @@
         "Profesor": "Daniel Jiménez"
       },
       {
-        "numero": 1,
+        "numero": 45,
         "actividad": "Futbol sala",
         "codigoActividad": "SE1222",
         "clases": [
@@ -4091,7 +4081,7 @@
         "Profesor": "Jhonny Ortega"
       },
       {
-        "numero": 2,
+        "numero": 46,
         "actividad": "Futbol sala",
         "codigoActividad": "SE1222",
         "clases": [
@@ -4102,6 +4092,403 @@
           }
         ],
         "Profesor": "Jhonny Ortega"
+      }
+    ]
+  },
+  {
+    "codigo": "CE1107",
+    "nombre": "Fundamentos de Arquitectura de Computadores",
+    "creditos": 4,
+    "requisitos": [
+      "Elementos Activos"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Chavarria Zamora Luis"
+      }
+    ]
+  },
+  {
+    "codigo": "CE3101",
+    "nombre": "Bases de Datos",
+    "creditos": 4,
+    "requisitos": [
+      "Paradigmas de Programación"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1900,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1900,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Rivera Meneses Marco"
+      }
+    ]
+  },
+  {
+    "codigo": "CE3201",
+    "nombre": "Taller de Diseño Digital",
+    "creditos": 2,
+    "requisitos": [
+      "Laboratorio de Circuitos Eléctricos"
+    ],
+    "correquisitos": [
+      "Fundamentos de Arquitectura de Computadores"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Barboza Artavia Luis"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Gonzalez Gomez Jeferson"
+      }
+    ]
+  },
+  {
+    "codigo": "CE1108",
+    "nombre": "Compiladores e Intérpretes",
+    "creditos": 4,
+    "requisitos": [
+      "Fundamentos de Arquitectura de Computadores"
+    ],
+    "correquisitos": [
+      "Arquitectura de Computadores I"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Leiton Jimenez Jason"
+      }
+    ]
+  },
+  {
+    "codigo": "CE1109",
+    "nombre": "Circuitos Analógicos",
+    "creditos": 4,
+    "requisitos": [
+      "Elementos Activos",
+      "Seguridad y Salud Ocupacional"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Araya Rodriguez Lisandro"
+      }
+    ]
+  },
+  {
+    "codigo": "CE1110",
+    "nombre": "Análisis de Señales Mixtas",
+    "creditos": 4,
+    "requisitos": [
+      "Circuitos Eléctricos en Corriente Alterna",
+      "Ecuaciones Diferenciales"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Chavarria Zamora Luis"
+      }
+    ]
+  },
+  {
+    "codigo": "CE4301",
+    "nombre": "Arquitectura de Computadores I",
+    "creditos": 4,
+    "requisitos": [
+      "Fundamentos de Arquitectura de Computadores",
+      "Taller de Diseño Digital"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Gonzalez Gomez Jeferson"
+      }
+    ]
+  },
+  {
+    "codigo": "MA2105",
+    "nombre": "Ecuaciones Diferenciales",
+    "creditos": 4,
+    "requisitos": [
+      "Cálculo y Álgebra Lineal"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Norberto Oviedo"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Adriana Solís"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Kendall Rodríguez"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "sábado",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Acuña"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Félix Núñez"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Luis Acuña"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Randall Brenes"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Mario Marín"
+      }
+    ]
+  },
+  {
+    "codigo": "PI5516",
+    "nombre": "Ingeniería Económica",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Fernando Chacón"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Biljhana Farah"
+      }
+    ]
+  },
+  {
+    "codigo": "CI3203",
+    "nombre": "Inglés Especializado para Ingenierías en Computadores",
+    "creditos": 2,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Roxana Jiménez"
       }
     ]
   }

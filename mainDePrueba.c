@@ -115,7 +115,7 @@ int main(int argc, char *argv[]) {
     }
 
     Catalogo catalogo;
-    int resultadoCatalogo = cargarCatalogo(rutaCatalogo, &catalogo);
+    int resultadoCatalogo = cargarCatalogo(rutaCatalogo, estudiante.carrera, &catalogo);
     if (resultadoCatalogo != OK) {
         fprintf(stderr, "No se pudo cargar el catalogo (codigo de error %d)\n", resultadoCatalogo);
         return 1;

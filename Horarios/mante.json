@@ -5,7 +5,7 @@
     "creditos": 4,
     "requisitos": [
       "Matemática General"
-      ],
+    ],
     "correquisitos": [],
     "grupos": [
       {
@@ -2069,7 +2069,7 @@
         "Profesor": "Andrea Gómez"
       },
       {
-        "numero": 1,
+        "numero": 3,
         "actividad": "Acción social",
         "codigoActividad": "SE1102",
         "clases": [
@@ -2082,7 +2082,7 @@
         "Profesor": "Sofía Valerín"
       },
       {
-        "numero": 2,
+        "numero": 4,
         "actividad": "Acción social",
         "codigoActividad": "SE1102",
         "clases": [
@@ -2121,7 +2121,7 @@
         "Profesor": "Iván Barrantes"
       },
       {
-        "numero": 1,
+        "numero": 7,
         "actividad": "Danza",
         "codigoActividad": "SE1103",
         "clases": [
@@ -2134,7 +2134,7 @@
         "Profesor": "Jorge Quesada"
       },
       {
-        "numero": 1,
+        "numero": 8,
         "actividad": "Artes visuales",
         "codigoActividad": "SE1104",
         "clases": [
@@ -2147,7 +2147,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 2,
+        "numero": 9,
         "actividad": "Artes visuales",
         "codigoActividad": "SE1104",
         "clases": [
@@ -2160,7 +2160,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 1,
+        "numero": 10,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2173,7 +2173,7 @@
         "Profesor": "Elena Castillo"
       },
       {
-        "numero": 2,
+        "numero": 11,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2186,7 +2186,7 @@
         "Profesor": "Luis Monge"
       },
       {
-        "numero": 5,
+        "numero": 12,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2199,7 +2199,7 @@
         "Profesor": "Vinicio Meza"
       },
       {
-        "numero": 6,
+        "numero": 13,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2212,7 +2212,7 @@
         "Profesor": "Vinicio Meza"
       },
       {
-        "numero": 7,
+        "numero": 14,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2225,7 +2225,7 @@
         "Profesor": "Luis Monge"
       },
       {
-        "numero": 8,
+        "numero": 15,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2238,7 +2238,7 @@
         "Profesor": "Elena Castillo"
       },
       {
-        "numero": 1,
+        "numero": 16,
         "actividad": "Apreciación literaria",
         "codigoActividad": "SE1106",
         "clases": [
@@ -2251,7 +2251,7 @@
         "Profesor": "Arnoldo Ramos"
       },
       {
-        "numero": 1,
+        "numero": 17,
         "actividad": "Apreciación de cine",
         "codigoActividad": "SE1107",
         "clases": [
@@ -2264,7 +2264,7 @@
         "Profesor": "Alicia Coto"
       },
       {
-        "numero": 2,
+        "numero": 18,
         "actividad": "Apreciación de cine",
         "codigoActividad": "SE1107",
         "clases": [
@@ -2277,7 +2277,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 1,
+        "numero": 19,
         "actividad": "Dinámica de la cultura",
         "codigoActividad": "SE1109",
         "clases": [
@@ -2290,7 +2290,7 @@
         "Profesor": "Laura Sancho"
       },
       {
-        "numero": 2,
+        "numero": 20,
         "actividad": "Dinámica de la cultura",
         "codigoActividad": "SE1109",
         "clases": [
@@ -2338,7 +2338,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 1,
+        "numero": 3,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -2351,7 +2351,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 2,
+        "numero": 4,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -2429,7 +2429,7 @@
         "Profesor": "Miguel Méndez"
       },
       {
-        "numero": 1,
+        "numero": 10,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -2442,7 +2442,7 @@
         "Profesor": "Rodrigo Quirós"
       },
       {
-        "numero": 2,
+        "numero": 11,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -2455,7 +2455,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 5,
+        "numero": 12,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -2468,7 +2468,7 @@
         "Profesor": "Gustavo Cabrera"
       },
       {
-        "numero": 6,
+        "numero": 13,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -2481,7 +2481,7 @@
         "Profesor": "Rodrigo Quirós"
       },
       {
-        "numero": 7,
+        "numero": 14,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -2494,7 +2494,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 1,
+        "numero": 15,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -2507,7 +2507,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 2,
+        "numero": 16,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -2520,7 +2520,7 @@
         "Profesor": "Jhonny Ortega"
       },
       {
-        "numero": 5,
+        "numero": 17,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -2533,7 +2533,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 6,
+        "numero": 18,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -2546,7 +2546,7 @@
         "Profesor": "Alberto Travieso"
       },
       {
-        "numero": 1,
+        "numero": 19,
         "actividad": "Béisbol-softbol",
         "codigoActividad": "SE1209",
         "clases": [
@@ -2559,7 +2559,7 @@
         "Profesor": "Miguel Méndez"
       },
       {
-        "numero": 2,
+        "numero": 20,
         "actividad": "Béisbol-softbol",
         "codigoActividad": "SE1209",
         "clases": [
@@ -2572,7 +2572,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 1,
+        "numero": 21,
         "actividad": "Ajedrez",
         "codigoActividad": "SE1218",
         "clases": [
@@ -2585,7 +2585,7 @@
         "Profesor": "Nelson Cordero"
       },
       {
-        "numero": 1,
+        "numero": 22,
         "actividad": "Baloncesto recreativo",
         "codigoActividad": "SE1219",
         "clases": [
@@ -2598,7 +2598,7 @@
         "Profesor": "Gustavo Cabrera"
       },
       {
-        "numero": 2,
+        "numero": 23,
         "actividad": "Baloncesto recreativo",
         "codigoActividad": "SE1219",
         "clases": [
@@ -2611,7 +2611,7 @@
         "Profesor": "Fabián Marín"
       },
       {
-        "numero": 1,
+        "numero": 24,
         "actividad": "Futbol I",
         "codigoActividad": "SE1221",
         "clases": [
@@ -2624,7 +2624,7 @@
         "Profesor": "Daniel Jiménez"
       },
       {
-        "numero": 1,
+        "numero": 25,
         "actividad": "Futbol sala",
         "codigoActividad": "SE1222",
         "clases": [
@@ -2637,7 +2637,7 @@
         "Profesor": "Jhonny Ortega"
       },
       {
-        "numero": 2,
+        "numero": 26,
         "actividad": "Futbol sala",
         "codigoActividad": "SE1222",
         "clases": [
@@ -2685,7 +2685,7 @@
         "Profesor": "Andrea Gómez"
       },
       {
-        "numero": 1,
+        "numero": 3,
         "actividad": "Acción social",
         "codigoActividad": "SE1102",
         "clases": [
@@ -2698,7 +2698,7 @@
         "Profesor": "Sofía Valerín"
       },
       {
-        "numero": 2,
+        "numero": 4,
         "actividad": "Acción social",
         "codigoActividad": "SE1102",
         "clases": [
@@ -2737,7 +2737,7 @@
         "Profesor": "Iván Barrantes"
       },
       {
-        "numero": 1,
+        "numero": 7,
         "actividad": "Danza",
         "codigoActividad": "SE1103",
         "clases": [
@@ -2750,7 +2750,7 @@
         "Profesor": "Jorge Quesada"
       },
       {
-        "numero": 1,
+        "numero": 8,
         "actividad": "Artes visuales",
         "codigoActividad": "SE1104",
         "clases": [
@@ -2763,7 +2763,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 2,
+        "numero": 9,
         "actividad": "Artes visuales",
         "codigoActividad": "SE1104",
         "clases": [
@@ -2776,7 +2776,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 1,
+        "numero": 10,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2789,7 +2789,7 @@
         "Profesor": "Elena Castillo"
       },
       {
-        "numero": 2,
+        "numero": 11,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2802,7 +2802,7 @@
         "Profesor": "Luis Monge"
       },
       {
-        "numero": 5,
+        "numero": 12,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2815,7 +2815,7 @@
         "Profesor": "Vinicio Meza"
       },
       {
-        "numero": 6,
+        "numero": 13,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2828,7 +2828,7 @@
         "Profesor": "Vinicio Meza"
       },
       {
-        "numero": 7,
+        "numero": 14,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2841,7 +2841,7 @@
         "Profesor": "Luis Monge"
       },
       {
-        "numero": 8,
+        "numero": 15,
         "actividad": "Artes musicales",
         "codigoActividad": "SE1105",
         "clases": [
@@ -2854,7 +2854,7 @@
         "Profesor": "Elena Castillo"
       },
       {
-        "numero": 1,
+        "numero": 16,
         "actividad": "Apreciación literaria",
         "codigoActividad": "SE1106",
         "clases": [
@@ -2867,7 +2867,7 @@
         "Profesor": "Arnoldo Ramos"
       },
       {
-        "numero": 1,
+        "numero": 17,
         "actividad": "Apreciación de cine",
         "codigoActividad": "SE1107",
         "clases": [
@@ -2880,7 +2880,7 @@
         "Profesor": "Alicia Coto"
       },
       {
-        "numero": 2,
+        "numero": 18,
         "actividad": "Apreciación de cine",
         "codigoActividad": "SE1107",
         "clases": [
@@ -2893,7 +2893,7 @@
         "Profesor": "Nelson Díaz"
       },
       {
-        "numero": 1,
+        "numero": 19,
         "actividad": "Dinámica de la cultura",
         "codigoActividad": "SE1109",
         "clases": [
@@ -2906,7 +2906,7 @@
         "Profesor": "Laura Sancho"
       },
       {
-        "numero": 2,
+        "numero": 20,
         "actividad": "Dinámica de la cultura",
         "codigoActividad": "SE1109",
         "clases": [
@@ -2919,7 +2919,7 @@
         "Profesor": "Laura Sancho"
       },
       {
-        "numero": 1,
+        "numero": 21,
         "actividad": "Atletismo",
         "codigoActividad": "SE1201",
         "clases": [
@@ -2932,7 +2932,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 2,
+        "numero": 22,
         "actividad": "Atletismo",
         "codigoActividad": "SE1201",
         "clases": [
@@ -2945,7 +2945,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 1,
+        "numero": 23,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -2958,7 +2958,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 2,
+        "numero": 24,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -2971,7 +2971,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 5,
+        "numero": 25,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -2984,7 +2984,7 @@
         "Profesor": "Fernando Bogantes"
       },
       {
-        "numero": 6,
+        "numero": 26,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -2997,7 +2997,7 @@
         "Profesor": "Lisbeth Sánchez"
       },
       {
-        "numero": 7,
+        "numero": 27,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3010,7 +3010,7 @@
         "Profesor": "Lisbeth Sánchez"
       },
       {
-        "numero": 8,
+        "numero": 28,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3023,7 +3023,7 @@
         "Profesor": "Lisbeth Sánchez"
       },
       {
-        "numero": 9,
+        "numero": 29,
         "actividad": "Natación",
         "codigoActividad": "SE1204",
         "clases": [
@@ -3036,7 +3036,7 @@
         "Profesor": "Miguel Méndez"
       },
       {
-        "numero": 1,
+        "numero": 30,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3049,7 +3049,7 @@
         "Profesor": "Rodrigo Quirós"
       },
       {
-        "numero": 2,
+        "numero": 31,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3062,7 +3062,7 @@
         "Profesor": "Biery Loaiza"
       },
       {
-        "numero": 5,
+        "numero": 32,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3075,7 +3075,7 @@
         "Profesor": "Gustavo Cabrera"
       },
       {
-        "numero": 6,
+        "numero": 33,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3088,7 +3088,7 @@
         "Profesor": "Rodrigo Quirós"
       },
       {
-        "numero": 7,
+        "numero": 34,
         "actividad": "Juegos y deportes en conjunto",
         "codigoActividad": "SE1205",
         "clases": [
@@ -3101,7 +3101,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 1,
+        "numero": 35,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3114,7 +3114,7 @@
         "Profesor": "Johnny Loría"
       },
       {
-        "numero": 2,
+        "numero": 36,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3127,7 +3127,7 @@
         "Profesor": "Jhonny Ortega"
       },
       {
-        "numero": 5,
+        "numero": 37,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3140,7 +3140,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 6,
+        "numero": 38,
         "actividad": "Acondicionamiento físico",
         "codigoActividad": "SE1206",
         "clases": [
@@ -3153,7 +3153,7 @@
         "Profesor": "Alberto Travieso"
       },
       {
-        "numero": 1,
+        "numero": 39,
         "actividad": "Béisbol-softbol",
         "codigoActividad": "SE1209",
         "clases": [
@@ -3166,7 +3166,7 @@
         "Profesor": "Miguel Méndez"
       },
       {
-        "numero": 2,
+        "numero": 40,
         "actividad": "Béisbol-softbol",
         "codigoActividad": "SE1209",
         "clases": [
@@ -3179,7 +3179,7 @@
         "Profesor": "Jorge Vega"
       },
       {
-        "numero": 1,
+        "numero": 41,
         "actividad": "Ajedrez",
         "codigoActividad": "SE1218",
         "clases": [
@@ -3192,7 +3192,7 @@
         "Profesor": "Nelson Cordero"
       },
       {
-        "numero": 1,
+        "numero": 42,
         "actividad": "Baloncesto recreativo",
         "codigoActividad": "SE1219",
         "clases": [
@@ -3205,7 +3205,7 @@
         "Profesor": "Gustavo Cabrera"
       },
       {
-        "numero": 2,
+        "numero": 43,
         "actividad": "Baloncesto recreativo",
         "codigoActividad": "SE1219",
         "clases": [
@@ -3218,7 +3218,7 @@
         "Profesor": "Fabián Marín"
       },
       {
-        "numero": 1,
+        "numero": 44,
         "actividad": "Futbol I",
         "codigoActividad": "SE1221",
         "clases": [
@@ -3231,7 +3231,7 @@
         "Profesor": "Daniel Jiménez"
       },
       {
-        "numero": 1,
+        "numero": 45,
         "actividad": "Futbol sala",
         "codigoActividad": "SE1222",
         "clases": [
@@ -3244,7 +3244,7 @@
         "Profesor": "Jhonny Ortega"
       },
       {
-        "numero": 2,
+        "numero": 46,
         "actividad": "Futbol sala",
         "codigoActividad": "SE1222",
         "clases": [
@@ -3265,19 +3265,214 @@
     "requisitos": [],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1120 }, { "dia": "viernes", "inicio": 930, "fin": 1120 } ], "Profesor": "William Mata Rodríguez" },
-      { "numero": 2, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1120 }, { "dia": "viernes", "inicio": 930, "fin": 1120 } ], "Profesor": "William Mata Rodríguez" },
-      { "numero": 3, "clases": [ { "dia": "miércoles", "inicio": 730, "fin": 920 }, { "dia": "viernes", "inicio": 730, "fin": 920 } ], "Profesor": "William Mata Rodríguez" },
-      { "numero": 4, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1450 }, { "dia": "jueves", "inicio": 1300, "fin": 1450 } ], "Profesor": "Ivannia Cerdas Quesada" },
-      { "numero": 5, "clases": [ { "dia": "martes", "inicio": 1700, "fin": 1850 }, { "dia": "jueves", "inicio": 1700, "fin": 1850 } ], "Profesor": "Iván Campos Fernández" },
-      { "numero": 6, "clases": [ { "dia": "martes", "inicio": 1900, "fin": 2050 }, { "dia": "jueves", "inicio": 1900, "fin": 2050 } ], "Profesor": "Iván Campos Fernández" },
-      { "numero": 7, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1450 }, { "dia": "viernes", "inicio": 1300, "fin": 1450 } ], "Profesor": "Franco Quirós Ramírez" },
-      { "numero": 8, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1450 }, { "dia": "jueves", "inicio": 1300, "fin": 1450 } ], "Profesor": "Bryan Hernández Sibaja" },
-      { "numero": 9, "clases": [ { "dia": "martes", "inicio": 1900, "fin": 2050 }, { "dia": "jueves", "inicio": 1900, "fin": 2050 } ], "Profesor": "Rodrigo Bogarín Navarro" },
-      { "numero": 10, "clases": [ { "dia": "martes", "inicio": 1900, "fin": 2050 }, { "dia": "jueves", "inicio": 1900, "fin": 2050 } ], "Profesor": "José Navas Su" },
-      { "numero": 11, "clases": [ { "dia": "martes", "inicio": 730, "fin": 920 }, { "dia": "jueves", "inicio": 730, "fin": 920 } ], "Profesor": "Laura Coto Sarmiento" },
-      { "numero": 12, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1120 }, { "dia": "jueves", "inicio": 930, "fin": 1120 } ], "Profesor": "Laura Coto Sarmiento" },
-      { "numero": 13, "clases": [ { "dia": "martes", "inicio": 1700, "fin": 1850 }, { "dia": "jueves", "inicio": 1700, "fin": 1850 } ], "Profesor": "Luis Villalobos Arias" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "William Mata Rodríguez"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "William Mata Rodríguez"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "William Mata Rodríguez"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Ivannia Cerdas Quesada"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Iván Campos Fernández"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1900,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1900,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Iván Campos Fernández"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Franco Quirós Ramírez"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Bryan Hernández Sibaja"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1900,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1900,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Rodrigo Bogarín Navarro"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1900,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1900,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "José Navas Su"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Laura Coto Sarmiento"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Laura Coto Sarmiento"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Luis Villalobos Arias"
+      }
     ]
   },
   {
@@ -3287,16 +3482,116 @@
     "requisitos": [],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 1800, "fin": 2050 } ], "Profesor": "Ana Kennedy Russell" },
-      { "numero": 2, "clases": [ { "dia": "martes", "inicio": 1700, "fin": 1950 } ], "Profesor": "Katerine Rivera Vega" },
-      { "numero": 3, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1550 } ], "Profesor": "Johanny Vallecillo Alfaro" },
-      { "numero": 4, "clases": [ { "dia": "jueves", "inicio": 930, "fin": 1220 } ], "Profesor": "Rocío Murillo Escalante" },
-      { "numero": 5, "clases": [ { "dia": "miércoles", "inicio": 1500, "fin": 1750 } ], "Profesor": "Carlos Gómez Montoya" },
-      { "numero": 6, "clases": [ { "dia": "jueves", "inicio": 1300, "fin": 1550 } ], "Profesor": "Nuria Vindas Fernández" },
-      { "numero": 7, "clases": [ { "dia": "jueves", "inicio": 1800, "fin": 2050 } ], "Profesor": "Sonia Albertazzi Osorio" },
-      { "numero": 8, "clases": [ { "dia": "lunes", "inicio": 930, "fin": 1220 } ], "Profesor": "Johanny Vallecillo Alfaro" },
-      { "numero": 9, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1550 } ], "Profesor": "Ana Kennedy Russell" },
-      { "numero": 10, "clases": [ { "dia": "viernes", "inicio": 930, "fin": 1220 } ], "Profesor": "Sonia Albertazzi Osorio" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Ana Kennedy Russell"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Katerine Rivera Vega"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Johanny Vallecillo Alfaro"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Rocío Murillo Escalante"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Carlos Gómez Montoya"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Nuria Vindas Fernández"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Sonia Albertazzi Osorio"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Johanny Vallecillo Alfaro"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Ana Kennedy Russell"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Sonia Albertazzi Osorio"
+      }
     ]
   },
   {
@@ -3306,11 +3601,61 @@
     "requisitos": [],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 1800, "fin": 2050 } ], "Profesor": "José Arce Fuentes" },
-      { "numero": 2, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1550 } ], "Profesor": "Ericka Romero Álvarez" },
-      { "numero": 3, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1550 } ], "Profesor": "Armando Ríos Sánchez" },
-      { "numero": 4, "clases": [ { "dia": "jueves", "inicio": 930, "fin": 1220 } ], "Profesor": "Gabriela Amador Solano" },
-      { "numero": 5, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1220 } ], "Profesor": "Ericka Vargas Castro" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "José Arce Fuentes"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Ericka Romero Álvarez"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Armando Ríos Sánchez"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Gabriela Amador Solano"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Ericka Vargas Castro"
+      }
     ]
   },
   {
@@ -3320,32 +3665,292 @@
     "requisitos": [],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 730, "fin": 1020 } ], "Profesor": "Larissa Castillo Rodríguez" },
-      { "numero": 2, "clases": [ { "dia": "lunes", "inicio": 930, "fin": 1220 } ], "Profesor": "Nelson Pérez Rojas" },
-      { "numero": 3, "clases": [ { "dia": "lunes", "inicio": 1800, "fin": 2050 } ], "Profesor": "Larissa Castillo Rodríguez" },
-      { "numero": 4, "clases": [ { "dia": "lunes", "inicio": 1800, "fin": 2050 } ], "Profesor": "Paola Morales Solano" },
-      { "numero": 5, "clases": [ { "dia": "martes", "inicio": 730, "fin": 1020 } ], "Profesor": "Larissa Castillo Rodríguez" },
-      { "numero": 6, "clases": [ { "dia": "martes", "inicio": 730, "fin": 1020 } ], "Profesor": "Saray Morales Garay" },
-      { "numero": 7, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1220 } ], "Profesor": "Gabriela Amador Solano" },
-      { "numero": 8, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1550 } ], "Profesor": "Larissa Castillo Rodríguez" },
-      { "numero": 9, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1550 } ], "Profesor": "Dimitri Shiltagh Prada" },
-      { "numero": 10, "clases": [ { "dia": "martes", "inicio": 1600, "fin": 1850 } ], "Profesor": "Larissa Castillo Rodríguez" },
-      { "numero": 11, "clases": [ { "dia": "martes", "inicio": 1800, "fin": 2050 } ], "Profesor": "Dimitri Shiltagh Prada" },
-      { "numero": 12, "clases": [ { "dia": "miércoles", "inicio": 730, "fin": 1020 } ], "Profesor": "Larissa Castillo Rodríguez" },
-      { "numero": 14, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1550 } ], "Profesor": "Dimitri Shiltagh Prada" },
-      { "numero": 18, "clases": [ { "dia": "miércoles", "inicio": 1800, "fin": 2050 } ], "Profesor": "Dimitri Shiltagh Prada" },
-      { "numero": 19, "clases": [ { "dia": "jueves", "inicio": 730, "fin": 1020 } ], "Profesor": "Saray Morales Garay" },
-      { "numero": 21, "clases": [ { "dia": "jueves", "inicio": 930, "fin": 1220 } ], "Profesor": "Nelson Pérez Rojas" },
-      { "numero": 22, "clases": [ { "dia": "jueves", "inicio": 1300, "fin": 1550 } ], "Profesor": "Dimitri Shiltagh Prada" },
-      { "numero": 24, "clases": [ { "dia": "jueves", "inicio": 1500, "fin": 1750 } ], "Profesor": "Sigrid Solano Moraga" },
-      { "numero": 25, "clases": [ { "dia": "jueves", "inicio": 1700, "fin": 1950 } ], "Profesor": "Paola Morales Solano" },
-      { "numero": 26, "clases": [ { "dia": "jueves", "inicio": 1800, "fin": 2050 } ], "Profesor": "José Arce Fuentes" },
-      { "numero": 27, "clases": [ { "dia": "viernes", "inicio": 730, "fin": 1020 } ], "Profesor": "Saray Morales Garay" },
-      { "numero": 28, "clases": [ { "dia": "viernes", "inicio": 930, "fin": 1220 } ], "Profesor": "Gabriela Amador Solano" },
-      { "numero": 29, "clases": [ { "dia": "viernes", "inicio": 1300, "fin": 1550 } ], "Profesor": "Dimitri Shiltagh Prada" },
-      { "numero": 30, "clases": [ { "dia": "viernes", "inicio": 1700, "fin": 1950 } ], "Profesor": "José Arce Fuentes" },
-      { "numero": 31, "clases": [ { "dia": "viernes", "inicio": 1800, "fin": 2050 } ], "Profesor": "Carolina Gómez Montoya" },
-      { "numero": 32, "clases": [ { "dia": "viernes", "inicio": 1600, "fin": 1850 } ], "Profesor": "Paola Morales Solano" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Larissa Castillo Rodríguez"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Nelson Pérez Rojas"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Larissa Castillo Rodríguez"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Paola Morales Solano"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Larissa Castillo Rodríguez"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Saray Morales Garay"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Gabriela Amador Solano"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Larissa Castillo Rodríguez"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Dimitri Shiltagh Prada"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1600,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Larissa Castillo Rodríguez"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Dimitri Shiltagh Prada"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Larissa Castillo Rodríguez"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Dimitri Shiltagh Prada"
+      },
+      {
+        "numero": 18,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Dimitri Shiltagh Prada"
+      },
+      {
+        "numero": 19,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Saray Morales Garay"
+      },
+      {
+        "numero": 21,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Nelson Pérez Rojas"
+      },
+      {
+        "numero": 22,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Dimitri Shiltagh Prada"
+      },
+      {
+        "numero": 24,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Sigrid Solano Moraga"
+      },
+      {
+        "numero": 25,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Paola Morales Solano"
+      },
+      {
+        "numero": 26,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "José Arce Fuentes"
+      },
+      {
+        "numero": 27,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Saray Morales Garay"
+      },
+      {
+        "numero": 28,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Gabriela Amador Solano"
+      },
+      {
+        "numero": 29,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Dimitri Shiltagh Prada"
+      },
+      {
+        "numero": 30,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1700,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "José Arce Fuentes"
+      },
+      {
+        "numero": 31,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Carolina Gómez Montoya"
+      },
+      {
+        "numero": 32,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1600,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Paola Morales Solano"
+      }
     ]
   },
   {
@@ -3355,17 +3960,127 @@
     "requisitos": [],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 730, "fin": 1020 } ], "Profesor": "Leonardo Brenes Rojas" },
-      { "numero": 2, "clases": [ { "dia": "martes", "inicio": 730, "fin": 1020 } ], "Profesor": "Sonia Albertazzi Osorio" },
-      { "numero": 3, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1220 } ], "Profesor": "Ingrid Herrera Jiménez" },
-      { "numero": 4, "clases": [ { "dia": "jueves", "inicio": 930, "fin": 1220 } ], "Profesor": "Tania Molina Villalobos" },
-      { "numero": 5, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1550 } ], "Profesor": "José Solano Solano" },
-      { "numero": 6, "clases": [ { "dia": "martes", "inicio": 1500, "fin": 1750 } ], "Profesor": "Luis Guillén Jiménez" },
-      { "numero": 7, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1220 } ], "Profesor": "Monserrat Ramírez Castro" },
-      { "numero": 8, "clases": [ { "dia": "miércoles", "inicio": 1800, "fin": 2050 } ], "Profesor": "Carlos Gómez Montoya" },
-      { "numero": 9, "clases": [ { "dia": "jueves", "inicio": 1300, "fin": 1550 } ], "Profesor": "Sonia Albertazzi Osorio" },
-      { "numero": 10, "clases": [ { "dia": "jueves", "inicio": 1800, "fin": 2050 } ], "Profesor": "Carlos Gómez Montoya" },
-      { "numero": 11, "clases": [ { "dia": "viernes", "inicio": 1300, "fin": 1550 } ], "Profesor": "José Solano Solano" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Leonardo Brenes Rojas"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Sonia Albertazzi Osorio"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Ingrid Herrera Jiménez"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Tania Molina Villalobos"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "José Solano Solano"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Luis Guillén Jiménez"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Monserrat Ramírez Castro"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Carlos Gómez Montoya"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Sonia Albertazzi Osorio"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Carlos Gómez Montoya"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "José Solano Solano"
+      }
     ]
   },
   {
@@ -3377,17 +4092,127 @@
     ],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 930, "fin": 1220 } ], "Profesor": "Mabel Solano Obando" },
-      { "numero": 2, "clases": [ { "dia": "lunes", "inicio": 1800, "fin": 2050 } ], "Profesor": "Ingrid Herrera Jiménez" },
-      { "numero": 3, "clases": [ { "dia": "martes", "inicio": 730, "fin": 1020 } ], "Profesor": "Ana Kennedy Russell" },
-      { "numero": 4, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1550 } ], "Profesor": "Sonia Albertazzi Osorio" },
-      { "numero": 5, "clases": [ { "dia": "martes", "inicio": 1800, "fin": 2050 } ], "Profesor": "Carlos Gómez Montoya" },
-      { "numero": 6, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1220 } ], "Profesor": "Mabel Solano Obando" },
-      { "numero": 7, "clases": [ { "dia": "jueves", "inicio": 930, "fin": 1220 } ], "Profesor": "Mabel Solano Obando" },
-      { "numero": 8, "clases": [ { "dia": "viernes", "inicio": 930, "fin": 1220 } ], "Profesor": "Johanny Vallecillo Alfaro" },
-      { "numero": 9, "clases": [ { "dia": "viernes", "inicio": 1300, "fin": 1550 } ], "Profesor": "Johanny Vallecillo Alfaro" },
-      { "numero": 10, "clases": [ { "dia": "miércoles", "inicio": 1600, "fin": 1850 } ], "Profesor": "Mabel Solano Obando" },
-      { "numero": 11, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1550 } ], "Profesor": "Esteban Fuentes Mora" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Mabel Solano Obando"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Ingrid Herrera Jiménez"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Ana Kennedy Russell"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Sonia Albertazzi Osorio"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Carlos Gómez Montoya"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Mabel Solano Obando"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Mabel Solano Obando"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Johanny Vallecillo Alfaro"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Johanny Vallecillo Alfaro"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1600,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Mabel Solano Obando"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Esteban Fuentes Mora"
+      }
     ]
   },
   {
@@ -3397,13 +4222,83 @@
     "requisitos": [],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 1800, "fin": 2050 } ], "Profesor": "Daniel Hasbún del Valle" },
-      { "numero": 2, "clases": [ { "dia": "miércoles", "inicio": 1800, "fin": 2050 } ], "Profesor": "Martha Calderón Ferrey" },
-      { "numero": 3, "clases": [ { "dia": "jueves", "inicio": 1800, "fin": 2050 } ], "Profesor": "Daniel Hasbún del Valle" },
-      { "numero": 4, "clases": [ { "dia": "miércoles", "inicio": 1800, "fin": 2050 } ], "Profesor": "Daniel Hasbún del Valle" },
-      { "numero": 5, "clases": [ { "dia": "martes", "inicio": 1500, "fin": 1750 } ], "Profesor": "Alfonso Chacón Mata" },
-      { "numero": 6, "clases": [ { "dia": "jueves", "inicio": 1800, "fin": 2050 } ], "Profesor": "Alejandro Achoy Hernández" },
-      { "numero": 7, "clases": [ { "dia": "jueves", "inicio": 1800, "fin": 2050 } ], "Profesor": "Martha Calderón Ferrey" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Daniel Hasbún del Valle"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Martha Calderón Ferrey"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Daniel Hasbún del Valle"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Daniel Hasbún del Valle"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1750
+          }
+        ],
+        "Profesor": "Alfonso Chacón Mata"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Alejandro Achoy Hernández"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Martha Calderón Ferrey"
+      }
     ]
   },
   {
@@ -3416,16 +4311,166 @@
     ],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "martes", "inicio": 730, "fin": 920 }, { "dia": "jueves", "inicio": 730, "fin": 920 } ], "Profesor": "Ernesto Montero Zeledón" },
-      { "numero": 2, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1120 }, { "dia": "jueves", "inicio": 930, "fin": 1120 } ], "Profesor": "Laura Rojas Rojas" },
-      { "numero": 3, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1450 }, { "dia": "jueves", "inicio": 1300, "fin": 1450 } ], "Profesor": "Juan Carlos Lobo Zamora" },
-      { "numero": 4, "clases": [ { "dia": "martes", "inicio": 1500, "fin": 1650 }, { "dia": "jueves", "inicio": 1500, "fin": 1650 } ], "Profesor": "Luis Alonso Araya Solano" },
-      { "numero": 5, "clases": [ { "dia": "martes", "inicio": 1700, "fin": 1850 }, { "dia": "jueves", "inicio": 1700, "fin": 1850 } ], "Profesor": "Eduardo Font Cruz" },
-      { "numero": 6, "clases": [ { "dia": "miércoles", "inicio": 730, "fin": 920 }, { "dia": "viernes", "inicio": 730, "fin": 920 } ], "Profesor": "Ana Segura Zárate" },
-      { "numero": 7, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1120 }, { "dia": "viernes", "inicio": 930, "fin": 1120 } ], "Profesor": "Rafael Oreamuno Madriz" },
-      { "numero": 8, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1450 }, { "dia": "viernes", "inicio": 1300, "fin": 1450 } ], "Profesor": "Francisco Rojas Pérez" },
-      { "numero": 9, "clases": [ { "dia": "miércoles", "inicio": 1500, "fin": 1650 }, { "dia": "viernes", "inicio": 1500, "fin": 1650 } ], "Profesor": "Carlos Gutiérrez Chaves" },
-      { "numero": 10, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1120 }, { "dia": "jueves", "inicio": 930, "fin": 1120 } ], "Profesor": "Juan Carlos Lobo Zamora" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Ernesto Montero Zeledón"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Laura Rojas Rojas"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Juan Carlos Lobo Zamora"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Luis Alonso Araya Solano"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Eduardo Font Cruz"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Ana Segura Zárate"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Rafael Oreamuno Madriz"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Francisco Rojas Pérez"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Carlos Gutiérrez Chaves"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Juan Carlos Lobo Zamora"
+      }
     ]
   },
   {
@@ -3435,18 +4480,204 @@
     "requisitos": [],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 730, "fin": 1120 } ], "Profesor": "Marvin Bermúdez Chacón" },
-      { "numero": 2, "clases": [ { "dia": "lunes", "inicio": 1700, "fin": 2050 } ], "Profesor": "Francisco Bonilla Guido" },
-      { "numero": 3, "clases": [ { "dia": "martes", "inicio": 730, "fin": 1120 } ], "Profesor": "Luis Felipe Córdoba Ramírez" },
-      { "numero": 4, "clases": [ { "dia": "martes", "inicio": 1700, "fin": 2050 } ], "Profesor": "Maximino Jiménez Ceciliano" },
-      { "numero": 5, "clases": [ { "dia": "miércoles", "inicio": 730, "fin": 1120 } ], "Profesor": "Frank Marín Guillén" },
-      { "numero": 6, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1650 } ], "Profesor": "Frank Marín Guillén" },
-      { "numero": 7, "clases": [ { "dia": "miércoles", "inicio": 1700, "fin": 2050 } ], "Profesor": "Víctor Hernández González" },
-      { "numero": 8, "clases": [ { "dia": "jueves", "inicio": 1300, "fin": 1650 } ], "Profesor": "Víctor Hernández González" },
-      { "numero": 9, "clases": [ { "dia": "viernes", "inicio": 730, "fin": 1120 } ], "Profesor": "Noel Ureña Sandi" },
-      { "numero": 10, "clases": [ { "dia": "viernes", "inicio": 730, "fin": 1120 } ], "Profesor": "Herbert Jackson Quirós" },
-      { "numero": 11, "clases": [ { "dia": "martes", "inicio": 1700, "fin": 2050 } ], "Profesor": "Francisco Bonilla Guido" },
-      { "numero": 12, "clases": [ { "dia": "viernes", "inicio": 1300, "fin": 1650 } ], "Profesor": "Julio Rojas Gómez" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Laura Salas"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Maximino Jiménez"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Juan Luis Guerrero"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Frank Marín"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Christopher Vega"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Frank Marín"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Maximino Jiménez"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Marvin Bermúdez"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Frank Marín"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Luis Felipe Córdoba"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Víctor Julio Hernández"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Frank Marín"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Víctor Julio Hernández"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Luis Felipe Córdoba"
+      },
+      {
+        "numero": 15,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Noel Ureña"
+      },
+      {
+        "numero": 16,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Herbert Jackson"
+      },
+      {
+        "numero": 17,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Marvin Bermúdez"
+      },
+      {
+        "numero": 18,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Carlos Otárola"
+      }
     ]
   },
   {
@@ -3459,14 +4690,72 @@
     ],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 730, "fin": 1120 } ], "Profesor": "Manuel Mata Coto" },
-      { "numero": 2, "clases": [ { "dia": "martes", "inicio": 730, "fin": 1120 } ], "Profesor": "Juan Luis Guerrero Fernández" },
-      { "numero": 3, "clases": [ { "dia": "martes", "inicio": 730, "fin": 1120 } ], "Profesor": "Julio Morera Hidalgo" },
-      { "numero": 4, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1650 } ], "Profesor": "Christopher Vega Sánchez" },
-      { "numero": 5, "clases": [ { "dia": "miércoles", "inicio": 730, "fin": 1120 } ], "Profesor": "Julio Morera Hidalgo" },
-      { "numero": 6, "clases": [ { "dia": "jueves", "inicio": 730, "fin": 1120 } ], "Profesor": "Manuel Mata Coto" },
-      { "numero": 7, "clases": [ { "dia": "jueves", "inicio": 1300, "fin": 1650 } ], "Profesor": "Juan José Montero Jiménez" },
-      { "numero": 8, "clases": [ { "dia": "viernes", "inicio": 730, "fin": 1120 } ], "Profesor": "Laura Salas Moya" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Manuel Mata"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Manuel Mata"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Julio Morera"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Luis Felipe Córdoba"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Manuel Mata"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Christopher Vega"
+      }
     ]
   },
   {
@@ -3478,10 +4767,28 @@
       "Electricidad I"
     ],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1120 } ], "Profesor": "Lisandro Araya Rodríguez" },
-      { "numero": 2, "clases": [ { "dia": "jueves", "inicio": 730, "fin": 920 } ], "Profesor": "Osvaldo Guerrero Castro" },
-      { "numero": 3, "clases": [ { "dia": "jueves", "inicio": 930, "fin": 1120 } ], "Profesor": "Osvaldo Guerrero Castro" },
-      { "numero": 4, "clases": [ { "dia": "viernes", "inicio": 730, "fin": 920 } ], "Profesor": "Gustavo Gómez Ramírez" }
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Osvaldo Guerrero"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Osvaldo Guerrero"
+      }
     ]
   },
   {
@@ -3496,8 +4803,17 @@
       "Laboratorio de Electricidad I"
     ],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1650 } ], "Profesor": "Juan José Rojas Hernández" },
-      { "numero": 2, "clases": [ { "dia": "martes", "inicio": 1500, "fin": 1650 }, { "dia": "jueves", "inicio": 1500, "fin": 1650 } ], "Profesor": "Lisandro Araya Rodríguez" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Nicolás Vaquerano"
+      }
     ]
   },
   {
@@ -3511,8 +4827,28 @@
       "Laboratorio de Procesos de Manufactura"
     ],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 830, "fin": 1120 } ], "Profesor": "Luis Felipe Córdoba Ramírez" },
-      { "numero": 2, "clases": [ { "dia": "lunes", "inicio": 830, "fin": 1120 } ], "Profesor": "Frank Marín Guillén" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 830,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Felipe Córdoba"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 830,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Carlos Otárola"
+      }
     ]
   },
   {
@@ -3524,12 +4860,94 @@
       "Procesos de Manufactura"
     ],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "martes", "inicio": 730, "fin": 1120 } ], "Profesor": "Frank Marín Guillén" },
-      { "numero": 2, "clases": [ { "dia": "martes", "inicio": 730, "fin": 1120 } ], "Profesor": "Rodolfo Elizondo Hernández" },
-      { "numero": 3, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1650 } ], "Profesor": "Frank Marín Guillén" },
-      { "numero": 4, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1650 } ], "Profesor": "Luis Felipe Córdoba Ramírez" },
-      { "numero": 7, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1650 } ], "Profesor": "Francisco Bonilla Guido" },
-      { "numero": 8, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1650 } ], "Profesor": "Luis Felipe Córdoba Ramírez" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Greivin Barahona"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Felipe Córdoba"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Juan Luis Guerrero"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Carlos Piedra"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Frank Marín"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Rodolfo Elizondo"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Carlos Piedra"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Rodolfo Elizondo"
+      }
     ]
   },
   {
@@ -3541,9 +4959,39 @@
     ],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 730, "fin": 1120 } ], "Profesor": "Gustavo Richmond Navarro" },
-      { "numero": 2, "clases": [ { "dia": "martes", "inicio": 1700, "fin": 2050 } ], "Profesor": "Carlos Otárola Zúñiga" },
-      { "numero": 3, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1650 } ], "Profesor": "Juan José Montero Jiménez" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Carlos Otárola"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 830,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Gustavo Richmond"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Juan José Montero"
+      }
     ]
   },
   {
@@ -3555,11 +5003,50 @@
     ],
     "correquisitos": [],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "lunes", "inicio": 730, "fin": 1120 } ], "Profesor": "Víctor Hernández González" },
-      { "numero": 2, "clases": [ { "dia": "lunes", "inicio": 1700, "fin": 2050 } ], "Profesor": "Julio Rojas Gómez" },
-      { "numero": 3, "clases": [ { "dia": "miércoles", "inicio": 730, "fin": 1120 } ], "Profesor": "Laura Salas Moya" },
-      { "numero": 4, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1650 } ], "Profesor": "Víctor Hernández González" },
-      { "numero": 5, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1650 } ], "Profesor": "Noel Ureña Sandi" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Víctor Julio Hernández"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Laura Salas"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Víctor Julio Hernández"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Laura Salas"
+      }
     ]
   },
   {
@@ -3574,31 +5061,281 @@
       "Química Básica II"
     ],
     "grupos": [
-      { "numero": 2, "clases": [ { "dia": "martes", "inicio": 730, "fin": 920 } ], "Profesor": "Andrés Sánchez Kopper" },
-      { "numero": 4, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1120 } ], "Profesor": "Rogelio Mata Solano" },
-      { "numero": 5, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1120 } ], "Profesor": "Andrés Sánchez Kopper" },
-      { "numero": 6, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1450 } ], "Profesor": "Jesús Mora Molina" },
-      { "numero": 7, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1450 } ], "Profesor": "Jacqueline Herrera Núñez" },
-      { "numero": 8, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1450 } ], "Profesor": "Rogelio Mata Solano" },
-      { "numero": 9, "clases": [ { "dia": "martes", "inicio": 1500, "fin": 1650 } ], "Profesor": "Jesús Mora Molina" },
-      { "numero": 11, "clases": [ { "dia": "miércoles", "inicio": 730, "fin": 920 } ], "Profesor": "Diana Robles Chávez" },
-      { "numero": 12, "clases": [ { "dia": "miércoles", "inicio": 730, "fin": 920 } ], "Profesor": "Ricardo Ulate Molina" },
-      { "numero": 13, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1120 } ], "Profesor": "Diana Robles Chávez" },
-      { "numero": 14, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1120 } ], "Profesor": "Ricardo Ulate Molina" },
-      { "numero": 15, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1120 } ], "Profesor": "Teresa Salazar Rojas" },
-      { "numero": 16, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1450 } ], "Profesor": "Jacqueline Herrera Núñez" },
-      { "numero": 17, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1450 } ], "Profesor": "Ricardo Ulate Molina" },
-      { "numero": 18, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1450 } ], "Profesor": "Teresa Salazar Rojas" },
-      { "numero": 19, "clases": [ { "dia": "miércoles", "inicio": 1500, "fin": 1650 } ], "Profesor": "Diana Robles Chávez" },
-      { "numero": 21, "clases": [ { "dia": "jueves", "inicio": 730, "fin": 920 } ], "Profesor": "Andrés Sánchez Kopper" },
-      { "numero": 22, "clases": [ { "dia": "jueves", "inicio": 730, "fin": 920 } ], "Profesor": "José Sandoval Mora" },
-      { "numero": 23, "clases": [ { "dia": "jueves", "inicio": 930, "fin": 1120 } ], "Profesor": "Lilliana Abarca Guerrero" },
-      { "numero": 24, "clases": [ { "dia": "jueves", "inicio": 930, "fin": 1120 } ], "Profesor": "José Sandoval Mora" },
-      { "numero": 26, "clases": [ { "dia": "jueves", "inicio": 1300, "fin": 1450 } ], "Profesor": "Adrián Flores Cantillo" },
-      { "numero": 27, "clases": [ { "dia": "jueves", "inicio": 1300, "fin": 1450 } ], "Profesor": "Eric Romero Blanco" },
-      { "numero": 28, "clases": [ { "dia": "jueves", "inicio": 1500, "fin": 1650 } ], "Profesor": "Lilliana Abarca Guerrero" },
-      { "numero": 29, "clases": [ { "dia": "jueves", "inicio": 1500, "fin": 1650 } ], "Profesor": "Eric Romero Blanco" },
-      { "numero": 31, "clases": [ { "dia": "viernes", "inicio": 930, "fin": 1120 } ], "Profesor": "Mario Araya Marchena" }
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Andrés Sánchez Kopper"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Rogelio Mata Solano"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Andrés Sánchez Kopper"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Jesús Mora Molina"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Jacqueline Herrera Núñez"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Rogelio Mata Solano"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Jesús Mora Molina"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Diana Robles Chávez"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Ricardo Ulate Molina"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Diana Robles Chávez"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Ricardo Ulate Molina"
+      },
+      {
+        "numero": 15,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Teresa Salazar Rojas"
+      },
+      {
+        "numero": 16,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Jacqueline Herrera Núñez"
+      },
+      {
+        "numero": 17,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Ricardo Ulate Molina"
+      },
+      {
+        "numero": 18,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Teresa Salazar Rojas"
+      },
+      {
+        "numero": 19,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Diana Robles Chávez"
+      },
+      {
+        "numero": 21,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Andrés Sánchez Kopper"
+      },
+      {
+        "numero": 22,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "José Sandoval Mora"
+      },
+      {
+        "numero": 23,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Lilliana Abarca Guerrero"
+      },
+      {
+        "numero": 24,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "José Sandoval Mora"
+      },
+      {
+        "numero": 26,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Adrián Flores Cantillo"
+      },
+      {
+        "numero": 27,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Eric Romero Blanco"
+      },
+      {
+        "numero": 28,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Lilliana Abarca Guerrero"
+      },
+      {
+        "numero": 29,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Eric Romero Blanco"
+      },
+      {
+        "numero": 31,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Mario Araya Marchena"
+      }
     ]
   },
   {
@@ -3612,18 +5349,853 @@
       "Laboratorio de Química Básica II"
     ],
     "grupos": [
-      { "numero": 1, "clases": [ { "dia": "martes", "inicio": 730, "fin": 920 }, { "dia": "jueves", "inicio": 730, "fin": 920 } ], "Profesor": "Fabio Araya Carvajal" },
-      { "numero": 3, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1120 }, { "dia": "jueves", "inicio": 930, "fin": 1120 } ], "Profesor": "Juan Carlos Salas Jiménez" },
-      { "numero": 4, "clases": [ { "dia": "martes", "inicio": 930, "fin": 1120 }, { "dia": "jueves", "inicio": 930, "fin": 1120 } ], "Profesor": "Ricardo Starbird Pérez" },
-      { "numero": 5, "clases": [ { "dia": "martes", "inicio": 1300, "fin": 1450 }, { "dia": "jueves", "inicio": 1300, "fin": 1450 } ], "Profesor": "Fabio Araya Carvajal" },
-      { "numero": 6, "clases": [ { "dia": "martes", "inicio": 1500, "fin": 1650 }, { "dia": "jueves", "inicio": 1500, "fin": 1650 } ], "Profesor": "Juan Carlos Salas Jiménez" },
-      { "numero": 7, "clases": [ { "dia": "miércoles", "inicio": 730, "fin": 920 }, { "dia": "viernes", "inicio": 730, "fin": 920 } ], "Profesor": "Maricruz Vargas Camareño" },
-      { "numero": 9, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1120 }, { "dia": "viernes", "inicio": 930, "fin": 1120 } ], "Profesor": "Heilen Arce Rojas" },
-      { "numero": 10, "clases": [ { "dia": "miércoles", "inicio": 930, "fin": 1120 }, { "dia": "viernes", "inicio": 930, "fin": 1120 } ], "Profesor": "Maricruz Vargas Camareño" },
-      { "numero": 11, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1450 }, { "dia": "viernes", "inicio": 1300, "fin": 1450 } ], "Profesor": "Maricruz Vargas Camareño" },
-      { "numero": 12, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1450 }, { "dia": "viernes", "inicio": 1300, "fin": 1450 } ], "Profesor": "Ricardo Starbird Pérez" },
-      { "numero": 13, "clases": [ { "dia": "miércoles", "inicio": 1500, "fin": 1650 }, { "dia": "viernes", "inicio": 1500, "fin": 1650 } ], "Profesor": "Aura Ledezma Espinoza" },
-      { "numero": 14, "clases": [ { "dia": "miércoles", "inicio": 1300, "fin": 1450 }, { "dia": "viernes", "inicio": 1300, "fin": 1450 } ], "Profesor": "Heilen Arce Rojas" }
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Fabio Araya Carvajal"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Juan Carlos Salas Jiménez"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Ricardo Starbird Pérez"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Fabio Araya Carvajal"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Juan Carlos Salas Jiménez"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Maricruz Vargas Camareño"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Heilen Arce Rojas"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Maricruz Vargas Camareño"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Maricruz Vargas Camareño"
+      },
+      {
+        "numero": 12,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Ricardo Starbird Pérez"
+      },
+      {
+        "numero": 13,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Aura Ledezma Espinoza"
+      },
+      {
+        "numero": 14,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Heilen Arce Rojas"
+      }
+    ]
+  },
+  {
+    "codigo": "MI2204",
+    "nombre": "Laboratorio de Electricidad II",
+    "creditos": 1,
+    "requisitos": [],
+    "correquisitos": [
+      "Electricidad II"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Gustavo Gómez"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Nicolás Vaquerano"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Nicolás Vaquerano"
+      }
+    ]
+  },
+  {
+    "codigo": "MI2207",
+    "nombre": "Electricidad II",
+    "creditos": 4,
+    "requisitos": [
+      "Laboratorio de Electricidad I",
+      "Electricidad I"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Lisandro Araya"
+      }
+    ]
+  },
+  {
+    "codigo": "MI3115",
+    "nombre": "Resistencia de Materiales",
+    "creditos": 3,
+    "requisitos": [
+      "Estática",
+      "Dibujo Industrial"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Noel Ureña"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Julio Morera"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Manuel Mata"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Juan José Montero"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Manuel Mata"
+      }
+    ]
+  },
+  {
+    "codigo": "MI3130",
+    "nombre": "Termodinámica",
+    "creditos": 4,
+    "requisitos": [
+      "Física General III"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Ignacio Del Valle"
+      }
+    ]
+  },
+  {
+    "codigo": "MI3108",
+    "nombre": "Mecánica de Fluidos",
+    "creditos": 4,
+    "requisitos": [
+      "Ecuaciones Diferenciales",
+      "Dinámica"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "José Alberto Garro"
+      }
+    ]
+  },
+  {
+    "codigo": "MI3111",
+    "nombre": "Laboratorio de Mecánica de Fluidos",
+    "creditos": 1,
+    "requisitos": [
+      "Termodinámica"
+    ],
+    "correquisitos": [
+      "Mecánica de Fluidos"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Juan Pablo Arias"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Juan Pablo Arias"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Juan Pablo Arias"
+      }
+    ]
+  },
+  {
+    "codigo": "MI3206",
+    "nombre": "Laboratorio de Máquinas Eléctricas",
+    "creditos": 1,
+    "requisitos": [],
+    "correquisitos": [
+      "Máquinas Eléctricas"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Osvaldo Guerrero"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Osvaldo Guerrero"
+      }
+    ]
+  },
+  {
+    "codigo": "MI3210",
+    "nombre": "Máquinas Eléctricas",
+    "creditos": 3,
+    "requisitos": [
+      "Laboratorio de Electricidad II",
+      "Electricidad II"
+    ],
+    "correquisitos": [
+      "Laboratorio de Máquinas Eléctricas"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Osvaldo Guerrero"
+      }
+    ]
+  },
+  {
+    "codigo": "MA2105",
+    "nombre": "Ecuaciones Diferenciales",
+    "creditos": 4,
+    "requisitos": [
+      "Cálculo y Álgebra Lineal"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Norberto Oviedo"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Adriana Solís"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Kendall Rodríguez"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "sábado",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Luis Acuña"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Félix Núñez"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Luis Acuña"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Randall Brenes"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 920
+          },
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Mario Marín"
+      }
+    ]
+  },
+  {
+    "codigo": "ME3208",
+    "nombre": "Tecnología de Materiales",
+    "creditos": 2,
+    "requisitos": [
+      "Química Básica II"
+    ],
+    "correquisitos": [
+      "Laboratorio de Tecnología de Materiales"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Carlos Alberto Sánchez"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "William Jesús Benavides"
+      }
+    ]
+  },
+  {
+    "codigo": "ME3209",
+    "nombre": "Laboratorio de Tecnología de Materiales",
+    "creditos": 1,
+    "requisitos": [],
+    "correquisitos": [
+      "Tecnología de Materiales"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jeimy González"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Alfredo Rodríguez"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Alfredo Rodríguez"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Oscar Chaverri"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Jeimy González"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Laria Fabiola Rodríguez"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "William Jesús Benavides"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "William Jesús Benavides"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Rebeca Corrales"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Eduardo González"
+      }
+    ]
+  },
+  {
+    "codigo": "CM4108",
+    "nombre": "Transferencia de Calor",
+    "creditos": 3,
+    "requisitos": [
+      "Termodinámica"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 830,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "William Jesús Benavides"
+      }
+    ]
+  },
+  {
+    "codigo": "AE5121",
+    "nombre": "Ingeniería Económica",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [
+      "Probabilidad y Estadística"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1700,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Manuel González"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Bernal Martínez"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Keller Martínez"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Carlos Díaz"
+      }
     ]
   }
 ]
