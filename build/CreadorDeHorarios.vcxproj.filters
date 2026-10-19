@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\esteb\OneDrive\Escritorio\CreadorDeHorarios\mainDePrueba.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\esteb\OneDrive\Escritorio\CreadorDeHorarios\parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\esteb\OneDrive\Escritorio\CreadorDeHorarios\comprobarChoques.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\esteb\OneDrive\Escritorio\CreadorDeHorarios\exportador.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\esteb\OneDrive\Escritorio\CreadorDeHorarios\src\cJSON.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\esteb\OneDrive\Escritorio\CreadorDeHorarios\procesador.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\esteb\OneDrive\Escritorio\CreadorDeHorarios\procesador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\esteb\OneDrive\Escritorio\CreadorDeHorarios\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B98003EA-704C-393C-97B7-BA4A63B60050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BD3148E0-C97F-3B11-AC86-71125177DB19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
