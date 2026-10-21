@@ -1,41 +1,8 @@
 #lang typed/racket
 
-(require "tipos.rkt")
+(require "tipos.rkt" "jsonUtil.rkt")
 (provide cargar-catalogo)
-;; generador.rkt separa las structs en bloques
-
-;; read-json puede devolver estos valores
-;; Los HashTable representan objetos json y las listas representan arreglos
-(define-type JSExpr (U 'null Boolean String Integer Inexact-Real
-                       (Listof JSExpr) (HashTable Symbol JSExpr)))
-
-(require/typed json
-  [read-json (->* () (Input-Port) (U JSExpr EOF))])
-
-;; Estas funciones revisan el tipo de los datos antes de usarlos, son como para verificar errores
-(: como-objeto (-> JSExpr (HashTable Symbol JSExpr)))
-(define (como-objeto valor)
-  (if (hash? valor) valor (error 'catalogo "se esperaba un objeto")))
-
-(: como-lista (-> JSExpr (Listof JSExpr)))
-(define (como-lista valor)
-  (if (list? valor) valor (error 'catalogo "se esperaba una lista")))
-
-(: como-texto (-> JSExpr String))
-(define (como-texto valor)
-  (if (string? valor) valor (error 'catalogo "se esperaba un texto")))
-
-(: como-entero (-> JSExpr Integer))
-(define (como-entero valor)
-  (if (exact-integer? valor)
-      valor
-      (error 'catalogo "se esperaba un entero")))
-
-;; Busca una clave en un objeto json. Da error si no existe
-(: leer-campo (-> JSExpr Symbol JSExpr))
-(define (leer-campo valor clave)
-  (hash-ref (como-objeto valor) clave
-            (lambda () (error 'catálogo "falta el campo '~a'" clave))))
+;; generador.rkt convierte el json del catalogo a las structs del proyecto
 
 ;; Estas funciones convierten cada parte del json a las structs del proyecto
 (: json->bloque (-> JSExpr Bloque))
@@ -79,7 +46,4 @@
 ;; Función que usa el resto del programa para cargar el archivo
 (: cargar-catalogo (-> Path-String Catalogo))
 (define (cargar-catalogo ruta)
-  (define j (call-with-input-file ruta read-json))
-  (if (eof-object? j)
-      (error 'catalogo "el archivo está vacío: ~a" ruta)
-      (json->catalogo j)))
+  (json->catalogo (leer-json-archivo ruta)))

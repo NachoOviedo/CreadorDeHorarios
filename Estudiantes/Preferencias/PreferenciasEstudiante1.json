@@ -1,0 +1,9 @@
+//En caso de que no se tenga interes en un grupo como tal se deja una lista vacia
+{
+  "intereses": [
+    { "curso": "CE1101", "grupos": [1, 2] },
+    { "curso": "CE1104", "grupos": [] }
+  ],
+  "creditosMin": 12,
+  "creditosMax": 18
+}
