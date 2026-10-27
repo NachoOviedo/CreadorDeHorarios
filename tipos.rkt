@@ -37,3 +37,15 @@
 (struct Catalogo ([cursos : (Listof Curso)]
                   [choques : (Listof ParChoque)])
   #:transparent)
+
+;; Un curso que le interesa al estudiante.
+;; Si la lista de grupos esta vacia, acepta cualquier grupo del curso
+(struct Interes ([codigo : String]
+                 [grupos : (Listof Integer)])
+  #:transparent)
+
+;; Las preferencias completas del estudiante
+(struct Preferencias ([intereses : (Listof Interes)]
+                      [creditos-min : Integer]
+                      [creditos-max : Integer])
+  #:transparent)
