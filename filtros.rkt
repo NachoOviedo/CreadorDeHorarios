@@ -1,6 +1,6 @@
 #lang typed/racket
 
-(require racket/stream
+(require "flujo.rkt"
          "tipos.rkt")
 
 (provide filtrar
@@ -22,8 +22,8 @@
   (filtrar
    (lambda ([elemento : A])
      (define creditos (obtener-creditos elemento))
-     (and (>= creditos (Preferencias-creditos-minimos preferencias))
-          (<= creditos (Preferencias-creditos-maximos preferencias))))
+     (and (>= creditos (Preferencias-creditos-min preferencias))
+          (<= creditos (Preferencias-creditos-max preferencias))))
    elementos))
 
 ;; Ejemplo de uso con combinaciones:

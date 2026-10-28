@@ -1,6 +1,6 @@
 #lang typed/racket
 
-(require racket/stream
+(require "flujo.rkt"
          "tipos.rkt")
 
 (provide combinaciones-sin-choques)
@@ -48,17 +48,16 @@
   (if (null? opciones)
       empty-stream
       (let ([opcion (car opciones)])
-        (stream-lazy
-         (stream-append
-          (if (compatible? opcion elegidos choques)
-              (generar-combinaciones restantes
-                                     (cons opcion elegidos)
-                                     choques)
-              empty-stream)
-          (probar-opciones (cdr opciones)
-                           restantes
-                           elegidos
-                           choques))))))
+        (stream-append
+         (if (compatible? opcion elegidos choques)
+             (generar-combinaciones restantes
+                                    (cons opcion elegidos)
+                                    choques)
+             empty-stream)
+         (probar-opciones (cdr opciones)
+                          restantes
+                          elegidos
+                          choques)))))
 
 ;; Elige un grupo por cada curso
 ;; Si no quedan cursos, devuelve la combinación que se fue armando
