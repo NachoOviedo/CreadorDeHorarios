@@ -1,8 +1,12 @@
 {
   "intereses": [
-    { "curso": "CE1101", "grupos": [1, 2] },
-    { "curso": "CE1104", "grupos": [] }
+    { "curso": "CE2103", "grupos": [1] },
+    { "curso": "MA0101", "grupos": [1, 2, 3] },
+    { "curso": "QU1106", "grupos": [1, 2] },
+    { "curso": "QU1102", "grupos": [] },
+    { "curso": "CI1407", "grupos": [] },
+    { "curso": "CE1101", "grupos": [1] }
   ],
-  "creditosMin": 12,
-  "creditosMax": 18
+  "creditosMin": 8,
+  "creditosMax": 14
 }

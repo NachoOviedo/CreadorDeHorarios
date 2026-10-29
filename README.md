@@ -1,19 +1,145 @@
 # CreadorDeHorarios
 
-Proyecto semestral de Paradigmas de Programación (CE1106) — **Etapa 1: Paradigma Imperativo (C)**.
+Proyecto semestral de Paradigmas de Programación (CE1106). Integrantes: Bolaños Porras Byron Josué, López Brenes Esteban Mauricio y Oviedo Murillo Ignacio.
 
-Este módulo es la primera de cuatro etapas del sistema **CEmestre**, que ayuda a un estudiante a construir un horario de matrícula válido. Cada etapa se implementa en un paradigma distinto y consume el archivo que produjo la etapa anterior:
+Es un sistema de cuatro etapas, **CEmestre**, que ayuda a un estudiante a construir un horario de matrícula válido. Cada etapa se implementa en un paradigma distinto, es un programa independiente y consume el archivo que produjo la etapa anterior:
 
-| Etapa | Lenguaje | Función |
-|---|---|---|
-| **1 (esta)** | C | Construye el catálogo de cursos y calcula choques de horario y elegibilidad de matrícula |
-| 2 | Racket | Genera y filtra combinaciones posibles de horario |
-| 3 | Prolog | Aplica reglas de restricción (créditos máximos, compatibilidades) |
-| 4 | Java | Integra el resultado final y lo presenta al usuario |
+| Etapa | Lenguaje | Función | Estado |
+|---|---|---|---|
+| 1 | C (imperativo) | Construye el catálogo de cursos y calcula choques de horario y elegibilidad de matrícula | Entregada |
+| **2** | **Racket (funcional)** | **Genera y filtra combinaciones posibles de horario** | **Esta entrega** |
+| 3 | Prolog | Aplica reglas de restricción (créditos máximos, compatibilidades) | Pendiente |
+| 4 | Java | Integra el resultado final y lo presenta al usuario | Pendiente |
 
-Esta etapa carga el historial del estudiante, elige el catálogo de cursos que le corresponde según su carrera, modela ese catálogo, detecta qué grupos son incompatibles entre sí, determina qué cursos puede matricular el estudiante según su historial, y exporta todo a un archivo que la etapa de Racket va a leer.
+Este README tiene dos partes: la **Etapa 2** (Racket) y, a continuación, la **Etapa 1** (C), que produce los datos que la Etapa 2 consume.
 
-## Arquitectura del proyecto
+---
+
+# Etapa 2: Racket (paradigma funcional)
+
+Esta etapa toma el catálogo que exporta el módulo de C (`Output/catalogoExp.json`) y las preferencias del estudiante, y genera todas las combinaciones de horario **sin choques** cuyos créditos estén dentro del rango que el estudiante pidió. El resultado es un archivo JSON (`Output/combinaciones.json`) que va a leer la etapa de Prolog.
+
+El módulo **no** arma un horario final, no sugiere ninguna combinación ni aplica reglas más allá de los créditos: eso queda para las etapas siguientes.
+
+## Arquitectura del proyecto (Etapa 2)
+
+```
+main.rkt
+  │
+  ├─► generador.rkt      → lee Output/catalogoExp.json y lo convierte a structs
+  ├─► preferencias.rkt   → lee y valida las preferencias del estudiante
+  ├─► combinaciones.rkt  → stream de combinaciones sin choques (poda temprana)
+  ├─► filtros.rkt        → filtro polimórfico, usado para el rango de créditos
+  └─► exportador.rkt     → escribe las combinaciones en JSON, una por una
+
+tipos.rkt     → todas las structs con tipos explícitos (Typed Racket)
+jsonUtil.rkt  → lectura de JSON con validación de tipos, compartida
+tests/pruebas.rkt → pruebas con rackunit
+```
+
+**Flujo de ejecución** (`ejecutar` en `main.rkt`):
+
+1. `cargar-catalogo` lee `Output/catalogoExp.json` y arma un `Catalogo`.
+2. `cargarPreferencias` y `validarPreferencias` leen el archivo de preferencias y comprueban que los cursos y grupos existan y que el rango de créditos sea válido.
+3. `armar-opciones` convierte cada curso de interés en una lista de `Seleccion` (un curso con uno de sus grupos). Solo entran los cursos con `puedeMatricular = 1`, y solo los grupos que el estudiante aceptó (si no indicó ninguno, entran todos).
+4. `subconjuntos` produce, como stream, cada subconjunto de esos cursos.
+5. `combinaciones-sin-choques` genera, para cada subconjunto, las combinaciones de un grupo por curso, descartando un grupo apenas choca con uno ya elegido.
+6. `armar-combinacion` suma los créditos de cada combinación.
+7. `filtrar-rango-creditos` conserva solo las combinaciones dentro del rango de créditos.
+8. `exportar-combinaciones` escribe cada combinación al archivo apenas el stream la produce.
+
+## Cómo compilar, ejecutar y probar
+
+El programa de C genera el catálogo y el de Racket lo consume:
+
+```bash
+# 1. Generar el catálogo (Etapa 1)
+./build/CreadorDeHorarios Estudiantes/historial_estudiante1.json
+
+# 2. Generar las combinaciones (Etapa 2)
+racket main.rkt
+# o indicando cada archivo:
+racket main.rkt Output/catalogoExp.json Estudiantes/Preferencias/PreferenciasEstudiante1.json Output/combinaciones.json
+
+# 3. Pruebas
+raco test tests/pruebas.rkt
+```
+
+Sin argumentos, `main.rkt` usa el catálogo y las preferencias del estudiante 1. Hay un ejemplo de preferencias para cada estudiante en `Estudiantes/Preferencias/`.
+
+## Decisiones de diseño
+
+### Justificación de decisiones propias
+
+1. **Se generan subconjuntos de los cursos de interés, no solo la lista completa.** Si el programa exigiera un grupo por *cada* curso de la lista, todas las combinaciones sumarían los mismos créditos y el filtro por rango no descartaría nada. Al tratar la lista como un conjunto de cursos posibles, el rango de créditos es lo que decide qué horarios sirven. `subconjuntos` es perezosa: producir el primer subconjunto de una lista de 40 cursos no recorre los 2^40.
+2. **Racket no recalcula requisitos ni choques.** Usa el campo `puedeMatricular` (solo el valor `1`) y la lista `choques` que ya calculó C. Esto sigue la división de responsabilidades de las etapas y evita tener dos implementaciones de la misma regla que se puedan contradecir.
+3. **Poda temprana de choques.** En `combinaciones.rkt`, `probar-opciones` revisa si cada grupo choca con los ya elegidos *antes* de seguir con los cursos restantes, así que una rama con choque nunca se completa.
+4. **Inmutabilidad.** No se usa `set!`, estructuras mutables ni variables globales reasignadas. El estado se lleva con parámetros de recursión: la lista `elegidos` al generar y el contador `cantidad` al exportar.
+5. **Una función polimórfica reutilizada.** `filtrar` y `filtrar-rango-creditos` tienen tipo `(All (A) ...)` y reciben la función que obtiene los créditos. En `main.rkt` se usan con `Combinacion`; en las pruebas, también con enteros y con strings. `subconjuntos` también es polimórfica.
+6. **Tipos explícitos en todo el código** (`#lang typed/racket`). Además, `jsonUtil.rkt` valida el tipo de cada campo del JSON antes de usarlo y falla con un mensaje claro si falta o es de otro tipo.
+
+### Caso límite real que encontramos
+
+El primer archivo de preferencias de ejemplo pedía CE1101 y CE1104, pero el estudiante 1 ya los tenía aprobados (`puedeMatricular = 2`), y además sumaban 6 créditos con un mínimo de 12. El resultado era un archivo vacío sin ninguna explicación.
+
+Se resolvió así: `cursos-omitidos` detecta los cursos de interés que no se pueden matricular, `ejecutar` avisa por `stderr` cuáles se ignoraron, y la generación sigue con los demás. Si ninguna combinación cumple el rango, el archivo igual se escribe como JSON válido con `"combinaciones": []`, para que la etapa siguiente no falle. El ejemplo `PreferenciasEstudiante1.json` incluye CE1101 a propósito para mostrar este aviso.
+
+### Justificación del formato de salida
+
+El formato es **JSON**, y se escribe **combinación por combinación**. Esta segunda decisión viene de usar streams: como las combinaciones se producen una a una, el exportador las escribe apenas aparecen y nunca guarda la lista completa en memoria. Con JSON eso se logra escribiendo `[`, cada objeto separado por coma y `]`. Además, JSON ya se usa en todo el proyecto (el catálogo de C, el historial, las preferencias), y Prolog puede leerlo con `library(http/json)`.
+
+```json
+{
+  "creditosMin": 8,
+  "creditosMax": 14,
+  "combinaciones": [
+    {
+      "creditosTotales": 9,
+      "cursos": [
+        { "curso": "CE2103", "grupo": 1, "carrera": "Ing.Computadores", "creditos": 4 },
+        { "curso": "QU1106", "grupo": 1, "carrera": "Ing.Computadores", "creditos": 3 }
+      ]
+    }
+  ]
+}
+```
+
+Los campos que pide el enunciado son: los pares curso-grupo (`curso` y `grupo`), los créditos totales (`creditosTotales`) y la carrera de cada curso (`carrera`). Se agregaron dos cosas, justificadas por quien consume el archivo:
+
+- `creditos` en cada curso: Prolog puede aplicar reglas de créditos por curso sin volver a cargar el catálogo.
+- `creditosMin` y `creditosMax` al inicio: dejan registrado con qué rango se generó el archivo.
+
+## Estructuras de datos desarrolladas (Etapa 2)
+
+Definidas en `tipos.rkt`. Todas son `struct` inmutables y transparentes:
+
+- **`Bloque`**, **`Grupo`**, **`Curso`**, **`ParChoque`** y **`Catalogo`**: reflejan el JSON que exporta C (ver la sección de la Etapa 1).
+- **`Interes`** — un curso que le interesa al estudiante y los grupos que acepta. Si la lista de grupos está vacía, acepta cualquiera.
+- **`Preferencias`** — la lista de `Interes` y los créditos mínimos y máximos.
+- **`Seleccion`** — un `Curso` junto con el `Grupo` elegido.
+- **`Combinacion`** — una lista de `Seleccion` (una por curso) y sus créditos totales.
+- **Streams** (`Streamof`) — las combinaciones nunca se guardan como lista completa: se generan, filtran y escriben de una en una.
+
+## Uso de streams
+
+La generación completa es un pipeline de streams: `subconjuntos` → `combinaciones-por-subconjunto` → `stream-map armar-combinacion` → `filtrar-rango-creditos` → `escribir-combinaciones`. Ninguna etapa construye la lista completa de combinaciones; el único consumidor que recorre todo el stream es el exportador, que escribe cada elemento y lo suelta.
+
+## Pruebas
+
+`tests/pruebas.rkt` usa un catálogo pequeño armado a mano (con un choque conocido y un curso no matriculable), así que no depende de ningún archivo. Prueban: los subconjuntos, la omisión de cursos no habilitados, que no haya combinaciones con choques, el filtro por créditos con distintos tipos de dato, y el JSON exportado (incluido el caso sin combinaciones).
+
+## Limitaciones conocidas (Etapa 2)
+
+- Si el estudiante deja `"grupos": []` en varios cursos con muchos grupos (por ejemplo MA0101 tiene 11 y QU1102 tiene 13), el número de combinaciones crece rápido. Se escriben igual, pero el archivo puede ser grande; conviene listar solo los grupos que realmente le sirven.
+- `hay-choque?` busca cada par en la lista completa de choques. Es suficiente para los catálogos actuales, pero un índice por par sería más rápido con catálogos más grandes.
+
+---
+
+# Etapa 1: C (paradigma imperativo)
+
+Esta etapa carga el historial del estudiante, elige el catálogo de cursos que le corresponde según su carrera, modela ese catálogo, detecta qué grupos son incompatibles entre sí, determina qué cursos puede matricular el estudiante según su historial, y exporta todo a un archivo que la etapa de Racket lee.
+
+## Arquitectura del proyecto (Etapa 1)
 
 El programa está dividido en módulos independientes, cada uno con una responsabilidad concreta:
 
@@ -70,7 +196,7 @@ Definidas en `structCatalogoCursos.h` y `structEstudiante.h`:
 
 - **`Bloque`** — un tramo de horario: día, hora de inicio y hora de fin. Un grupo puede tener varios bloques (por ejemplo, un curso que se reúne martes y jueves).
 - **`Grupo`** — número de grupo, profesor, su arreglo de `Bloque`, y un booleano `choca` que resume si tiene algún conflicto de horario con otro grupo del catálogo.
-- **`Curso`** — código, nombre, créditos, arreglos de nombres de requisitos y correquisitos, su arreglo de `Grupo`, y `puedeMatricular` (el resultado de la evaluación de elegibilidad).
+- **`Curso`** — código, nombre, carrera (se toma del historial del estudiante, por eso los JSON del catálogo no la repiten), créditos, arreglos de nombres de requisitos y correquisitos, su arreglo de `Grupo`, y `puedeMatricular` (el resultado de la evaluación de elegibilidad).
 - **`ParChoque`** — identifica un par específico de grupos que chocan entre sí (código de curso y número de grupo de cada lado).
 - **`Catalogo`** — el arreglo completo de `Curso`, más el arreglo de `ParChoque` detectados y su cantidad.
 - **`Estudiante`** — carnet, nombre, carrera (usada para elegir el catálogo), y el arreglo de códigos de los cursos que ya aprobó.
@@ -131,16 +257,16 @@ El caso límite real que el módulo de detección de choques sí debe manejar oc
 
 ## Archivo de salida
 
-`Output/catalogoExp.json` contiene, por cada curso: código, nombre, créditos, `puedeMatricular`, requisitos, correquisitos, y su arreglo de grupos (cada uno con número, profesor, si choca, y sus bloques de horario). Además incluye un arreglo `"choques"` con la lista completa de pares de grupos detectados como incompatibles (sujeta al límite `MAX_CHOQUES` descrito arriba).
+`Output/catalogoExp.json` contiene, por cada curso: código, nombre, carrera, créditos, `puedeMatricular`, requisitos, correquisitos, y su arreglo de grupos (cada uno con número, profesor, si choca, y sus bloques de horario). Además incluye un arreglo `"choques"` con la lista completa de pares de grupos detectados como incompatibles (sujeta al límite `MAX_CHOQUES` descrito arriba).
 
 ## Datos de entrada
 
-Los datos de ambas carreras (Computadores en `Horarios/compu.json`, Mantenimiento Industrial en `Horarios/mante.json`) fueron recolectados de la Guía de Horarios institucional del TEC, cubriendo los primeros semestres de cada plan de estudios. Los historiales de estudiantes se esperan como archivos JSON individuales (por ejemplo en una carpeta `Estudiantes/`), cada uno con carnet, nombre, carrera y la lista de códigos de cursos ya aprobados.
+Los datos de ambas carreras (Computadores en `Horarios/compu.json`, Mantenimiento Industrial en `Horarios/mante.json`) fueron recolectados de la Guía de Horarios institucional del TEC, cubriendo del semestre 0 al 6 de cada plan de estudios, con los horarios de Cartago del primer semestre de 2026. Los historiales de estudiantes se esperan como archivos JSON individuales (por ejemplo en una carpeta `Estudiantes/`), cada uno con carnet, nombre, carrera y la lista de códigos de cursos ya aprobados.
 
 ## Limitaciones y pendientes conocidos
 
-- El valor exacto del campo `"carrera"` para Ingeniería en Mantenimiento (`"Ing.Mantenimiento"` en `CATALOGOS_POR_CARRERA`) todavía no está confirmado contra un historial real; hay un `TODO` explícito en `mainDePrueba.c` sobre esto. Si el historial trae un valor distinto, la carga del catálogo falla.
 - La comparación de carrera es sensible a mayúsculas y tildes (`strcmp` exacto): cualquier variación de formato en el historial provoca que no se encuentre catálogo, sin sugerencia de a qué carrera se refería.
+- `MAX_CHOQUES = 10000`: el catálogo de Mantenimiento ya genera 8 966 pares, así que agregar más cursos o grupos puede llegar al límite y truncar la lista de pares sin avisar.
 - `MAX_LEN_RUTA` está definido en `constantes.h` pero no se usa actualmente en el código.
 - En `comprobarChoques.h` el guard de inclusión tiene una inconsistencia de nombre (`#define ... _COMPROVARCHOQUES_H` vs. el comentario del `#endif`, que dice `_COMPROBARCHOQUES_H`); no afecta la compilación, pero convendría unificarlo.
 

@@ -1,0 +1,11 @@
+{
+  "intereses": [
+    { "curso": "MA0101", "grupos": [1, 2, 3] },
+    { "curso": "QU1106", "grupos": [1, 2] },
+    { "curso": "QU1102", "grupos": [] },
+    { "curso": "CA2125", "grupos": [1, 2, 3] },
+    { "curso": "MI2101", "grupos": [] }
+  ],
+  "creditosMin": 9,
+  "creditosMax": 12
+}
