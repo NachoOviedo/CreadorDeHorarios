@@ -32,6 +32,7 @@ main.rkt
   ├─► filtros.rkt        → filtro polimórfico, usado para el rango de créditos
   └─► exportador.rkt     → escribe las combinaciones en JSON, una por una
 
+flujo.rkt     → streams perezosos con tipos (Streamof), usados por todos los módulos de arriba
 tipos.rkt     → todas las structs con tipos explícitos (Typed Racket)
 jsonUtil.rkt  → lectura de JSON con validación de tipos, compartida
 tests/pruebas.rkt → pruebas con rackunit
@@ -65,36 +66,54 @@ racket main.rkt Output/catalogoExp.json Estudiantes/Preferencias/PreferenciasEst
 raco test tests/pruebas.rkt
 ```
 
-Sin argumentos, `main.rkt` usa el catálogo y las preferencias del estudiante 1. Hay un ejemplo de preferencias para cada estudiante en `Estudiantes/Preferencias/`.
+Sin argumentos, `main.rkt` usa el catálogo y las preferencias del estudiante 1. Hay un ejemplo de preferencias para cada estudiante en `Estudiantes/Preferencias/`. El catálogo con el que se corre debe corresponder a la carrera del estudiante (por ejemplo, `PreferenciasEstudiante2.json` pide cursos de Mantenimiento), porque `validarPreferencias` falla si un curso de interés no existe en el catálogo cargado.
+
+## Formato del archivo de preferencias
+
+```json
+{
+  "intereses": [
+    { "curso": "MA0101", "grupos": [1, 2, 3] },
+    { "curso": "QU1102", "grupos": [] }
+  ],
+  "creditosMin": 8,
+  "creditosMax": 14
+}
+```
+
+Cada interés es un curso con los grupos que el estudiante acepta. Una lista vacía significa que acepta cualquier grupo del curso. Los créditos mínimo y máximo definen el rango del filtro.
 
 ## Decisiones de diseño
 
 ### Justificación de decisiones propias
 
-1. **Se generan subconjuntos de los cursos de interés, no solo la lista completa.** Si el programa exigiera un grupo por *cada* curso de la lista, todas las combinaciones sumarían los mismos créditos y el filtro por rango no descartaría nada. Al tratar la lista como un conjunto de cursos posibles, el rango de créditos es lo que decide qué horarios sirven. `subconjuntos` es perezosa: producir el primer subconjunto de una lista de 40 cursos no recorre los 2^40.
-2. **Racket no recalcula requisitos ni choques.** Usa el campo `puedeMatricular` (solo el valor `1`) y la lista `choques` que ya calculó C. Esto sigue la división de responsabilidades de las etapas y evita tener dos implementaciones de la misma regla que se puedan contradecir.
+1. **Se generan subconjuntos de los cursos de interés, no solo la lista completa.** Si el programa exigiera un grupo por *cada* curso de la lista, todas las combinaciones sumarían los mismos créditos y el filtro por rango no descartaría nada. Al tratar la lista como un conjunto de cursos posibles, el rango de créditos es lo que decide qué horarios sirven. `subconjuntos` es perezosa: producir el primer subconjunto de una lista de 40 cursos no recorre los 2^40. El subconjunto vacío se descarta, porque no es un horario.
+2. **Racket no recalcula requisitos ni choques.** Usa el campo `puedeMatricular` (solo el valor `1`) y la lista `choques` que ya calculó C. El booleano `choca` de cada grupo se lee y se guarda en la struct `Grupo`, pero no se usa para decidir: un grupo que choca con *algún* otro puede ser perfectamente compatible con los demás grupos elegidos, y solo la lista de pares responde esa pregunta. Esto sigue la división de responsabilidades de las etapas y evita tener dos implementaciones de la misma regla que se puedan contradecir.
 3. **Poda temprana de choques.** En `combinaciones.rkt`, `probar-opciones` revisa si cada grupo choca con los ya elegidos *antes* de seguir con los cursos restantes, así que una rama con choque nunca se completa.
 4. **Inmutabilidad.** No se usa `set!`, estructuras mutables ni variables globales reasignadas. El estado se lleva con parámetros de recursión: la lista `elegidos` al generar y el contador `cantidad` al exportar.
 5. **Una función polimórfica reutilizada.** `filtrar` y `filtrar-rango-creditos` tienen tipo `(All (A) ...)` y reciben la función que obtiene los créditos. En `main.rkt` se usan con `Combinacion`; en las pruebas, también con enteros y con strings. `subconjuntos` también es polimórfica.
-6. **Tipos explícitos en todo el código** (`#lang typed/racket`). Además, `jsonUtil.rkt` valida el tipo de cada campo del JSON antes de usarlo y falla con un mensaje claro si falta o es de otro tipo.
+6. **Streams propios en `flujo.rkt`.** Typed Racket no trae tipos para `racket/stream`, así que se definió un tipo `Streamof` con una celda (primer elemento) y una promesa (`delay`/`force`) que calcula el resto solo cuando alguien lo pide. Así los streams se pueden usar con tipos explícitos en todo el proyecto, con las operaciones que se necesitan (`stream-map`, `stream-filter`, `stream-append`, `stream-take`, `stream->list`). `stream->list` solo se usa en las pruebas; el programa principal nunca materializa la lista completa. La promesa guarda su resultado internamente, y esa memoización es la única forma de estado oculto: el código del proyecto no usa mutación explícita.
+7. **Tipos explícitos en todo el código** (`#lang typed/racket`). Además, `jsonUtil.rkt` valida el tipo de cada campo del JSON antes de usarlo y falla con un mensaje claro si falta o es de otro tipo.
 
 ### Caso límite real que encontramos
 
-El primer archivo de preferencias de ejemplo pedía CE1101 y CE1104, pero el estudiante 1 ya los tenía aprobados (`puedeMatricular = 2`), y además sumaban 6 créditos con un mínimo de 12. El resultado era un archivo vacío sin ninguna explicación.
+En una versión anterior del archivo de preferencias de ejemplo, el estudiante 1 pedía CE1101 y CE1104, pero ya los tenía aprobados (`puedeMatricular = 2`), y además sumaban 6 créditos con un mínimo de 12. El resultado era un archivo vacío sin ninguna explicación.
 
-Se resolvió así: `cursos-omitidos` detecta los cursos de interés que no se pueden matricular, `ejecutar` avisa por `stderr` cuáles se ignoraron, y la generación sigue con los demás. Si ninguna combinación cumple el rango, el archivo igual se escribe como JSON válido con `"combinaciones": []`, para que la etapa siguiente no falle. El ejemplo `PreferenciasEstudiante1.json` incluye CE1101 a propósito para mostrar este aviso.
+Se resolvió así: `cursos-omitidos` detecta los cursos de interés que no se pueden matricular, `ejecutar` avisa por `stderr` cuáles se ignoraron, y la generación sigue con los demás. Si ninguna combinación cumple el rango, el archivo igual se escribe como JSON válido con `"combinaciones": []`, para que la etapa siguiente no falle. El `PreferenciasEstudiante1.json` actual conserva CE1101 a propósito (con el grupo 1), para mostrar este aviso al ejecutar.
 
 ### Justificación del formato de salida
 
 El formato es **JSON**, y se escribe **combinación por combinación**. Esta segunda decisión viene de usar streams: como las combinaciones se producen una a una, el exportador las escribe apenas aparecen y nunca guarda la lista completa en memoria. Con JSON eso se logra escribiendo `[`, cada objeto separado por coma y `]`. Además, JSON ya se usa en todo el proyecto (el catálogo de C, el historial, las preferencias), y Prolog puede leerlo con `library(http/json)`.
 
+Ejemplo ilustrativo del archivo de salida (para un rango de 6 a 14 créditos):
+
 ```json
 {
-  "creditosMin": 8,
+  "creditosMin": 6,
   "creditosMax": 14,
   "combinaciones": [
     {
-      "creditosTotales": 9,
+      "creditosTotales": 7,
       "cursos": [
         { "curso": "CE2103", "grupo": 1, "carrera": "Ing.Computadores", "creditos": 4 },
         { "curso": "QU1106", "grupo": 1, "carrera": "Ing.Computadores", "creditos": 3 }
@@ -109,16 +128,18 @@ Los campos que pide el enunciado son: los pares curso-grupo (`curso` y `grupo`),
 - `creditos` en cada curso: Prolog puede aplicar reglas de créditos por curso sin volver a cargar el catálogo.
 - `creditosMin` y `creditosMax` al inicio: dejan registrado con qué rango se generó el archivo.
 
+La carrera de cada curso se copia tal cual del campo `carrera` del catálogo que exporta C. Ver las limitaciones para el alcance de este campo.
+
 ## Estructuras de datos desarrolladas (Etapa 2)
 
-Definidas en `tipos.rkt`. Todas son `struct` inmutables y transparentes:
+Definidas en `tipos.rkt` y `flujo.rkt`. Todas son `struct` inmutables:
 
 - **`Bloque`**, **`Grupo`**, **`Curso`**, **`ParChoque`** y **`Catalogo`**: reflejan el JSON que exporta C (ver la sección de la Etapa 1).
-- **`Interes`** — un curso que le interesa al estudiante y los grupos que acepta. Si la lista de grupos está vacía, acepta cualquiera.
-- **`Preferencias`** — la lista de `Interes` y los créditos mínimos y máximos.
-- **`Seleccion`** — un `Curso` junto con el `Grupo` elegido.
-- **`Combinacion`** — una lista de `Seleccion` (una por curso) y sus créditos totales.
-- **Streams** (`Streamof`) — las combinaciones nunca se guardan como lista completa: se generan, filtran y escriben de una en una.
+- **`Interes`**: un curso que le interesa al estudiante y los grupos que acepta. Si la lista de grupos está vacía, acepta cualquiera.
+- **`Preferencias`**: la lista de `Interes` y los créditos mínimos y máximos.
+- **`Seleccion`**: un `Curso` junto con el `Grupo` elegido.
+- **`Combinacion`**: una lista de `Seleccion` (una por curso) y sus créditos totales.
+- **`Streamof`** (en `flujo.rkt`): un stream es vacío (`Vacio`) o una celda (`Celda`) con su primer elemento y una promesa que calcula el resto. Las combinaciones nunca se guardan como lista completa: se generan, filtran y escriben de una en una.
 
 ## Uso de streams
 
@@ -130,8 +151,11 @@ La generación completa es un pipeline de streams: `subconjuntos` → `combinaci
 
 ## Limitaciones conocidas (Etapa 2)
 
+- **La carrera de cada curso es la del estudiante.** C carga un solo catálogo por ejecución y asigna a todos sus cursos la carrera del historial del estudiante. Por eso, en una misma corrida, todos los cursos de la salida de Racket llevan la misma carrera. Racket exporta el campo sin modificarlo.
+- **No se valida que un curso aparezca una sola vez en las preferencias.** Si el archivo repite un curso, el programa podría generar combinaciones con ese curso dos veces.
 - Si el estudiante deja `"grupos": []` en varios cursos con muchos grupos (por ejemplo MA0101 tiene 11 y QU1102 tiene 13), el número de combinaciones crece rápido. Se escriben igual, pero el archivo puede ser grande; conviene listar solo los grupos que realmente le sirven.
 - `hay-choque?` busca cada par en la lista completa de choques. Es suficiente para los catálogos actuales, pero un índice por par sería más rápido con catálogos más grandes.
+- Si un curso o grupo de las preferencias no existe en el catálogo, el programa termina con error en lugar de omitirlo.
 
 ---
 
@@ -194,12 +218,12 @@ Este mecanismo automático se puede omitir pasando la ruta del catálogo explíc
 
 Definidas en `structCatalogoCursos.h` y `structEstudiante.h`:
 
-- **`Bloque`** — un tramo de horario: día, hora de inicio y hora de fin. Un grupo puede tener varios bloques (por ejemplo, un curso que se reúne martes y jueves).
-- **`Grupo`** — número de grupo, profesor, su arreglo de `Bloque`, y un booleano `choca` que resume si tiene algún conflicto de horario con otro grupo del catálogo.
-- **`Curso`** — código, nombre, carrera (se toma del historial del estudiante, por eso los JSON del catálogo no la repiten), créditos, arreglos de nombres de requisitos y correquisitos, su arreglo de `Grupo`, y `puedeMatricular` (el resultado de la evaluación de elegibilidad).
-- **`ParChoque`** — identifica un par específico de grupos que chocan entre sí (código de curso y número de grupo de cada lado).
-- **`Catalogo`** — el arreglo completo de `Curso`, más el arreglo de `ParChoque` detectados y su cantidad.
-- **`Estudiante`** — carnet, nombre, carrera (usada para elegir el catálogo), y el arreglo de códigos de los cursos que ya aprobó.
+- **`Bloque`**: un tramo de horario: día, hora de inicio y hora de fin. Un grupo puede tener varios bloques (por ejemplo, un curso que se reúne martes y jueves).
+- **`Grupo`**: número de grupo, profesor, su arreglo de `Bloque`, y un booleano `choca` que resume si tiene algún conflicto de horario con otro grupo del catálogo.
+- **`Curso`**: código, nombre, carrera (se toma del historial del estudiante, por eso los JSON del catálogo no la repiten), créditos, arreglos de nombres de requisitos y correquisitos, su arreglo de `Grupo`, y `puedeMatricular` (el resultado de la evaluación de elegibilidad).
+- **`ParChoque`**: identifica un par específico de grupos que chocan entre sí (código de curso y número de grupo de cada lado).
+- **`Catalogo`**: el arreglo completo de `Curso`, más el arreglo de `ParChoque` detectados y su cantidad.
+- **`Estudiante`**: carnet, nombre, carrera (usada para elegir el catálogo), y el arreglo de códigos de los cursos que ya aprobó.
 
 Todas las structs usan arreglos de tamaño fijo (no memoria dinámica para las listas), con sus límites definidos en `constantes.h`. Esta decisión evita la complejidad de manejo manual de memoria dinámica para estructuras que tienen un tamaño acotado y conocido de antemano.
 
