@@ -49,3 +49,13 @@
                       [creditos-min : Integer]
                       [creditos-max : Integer])
   #:transparent)
+
+;; Un curso junto con el grupo elegido para matricularlo
+(struct Seleccion ([curso : Curso]
+                   [grupo : Grupo])
+  #:transparent)
+
+;; Una combinacion valida de horario: un grupo por cada curso elegido
+(struct Combinacion ([selecciones : (Listof Seleccion)]
+                     [creditos-totales : Integer])
+  #:transparent)
