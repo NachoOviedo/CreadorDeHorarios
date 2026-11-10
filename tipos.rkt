@@ -19,6 +19,8 @@
 (struct Curso ([codigo : String]
                [nombre : String]
                [carrera : String]
+               ;; Area academica del curso, la calcula C a partir del prefijo del codigo
+               [area : String]
                [creditos : Integer]
                [puede-matricular : Integer]
                [requisitos : (Listof String)]

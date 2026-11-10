@@ -24,6 +24,8 @@
   (Curso (como-texto (leer-campo j 'codigo))
          (como-texto (leer-campo j 'nombre))
          (como-texto (leer-campo j 'carrera))
+         ;; El area viene del catalogo que exporta C (campo obligatorio)
+         (como-texto (leer-campo j 'area))
          (como-entero (leer-campo j 'creditos))
          (como-entero (leer-campo j 'puedeMatricular))
          (map como-texto (como-lista (leer-campo j 'requisitos)))

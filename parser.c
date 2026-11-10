@@ -5,6 +5,7 @@
 #include "cJSON.h"
 #include "constantes.h"
 #include "parser.h"
+#include "area.h"
 
 
 /*----------------------------------------Parser Catalogo-----------------------------------------*/
@@ -144,6 +145,8 @@ static int llenarCurso(cJSON *cursoJson, const char *carrera, Curso *curso) {
     copiarString(curso->codigo, MAX_LEN_CODIGO, codigo->valuestring);
     copiarString(curso->nombre, MAX_LEN_NOMBRE, nombre->valuestring);
     copiarString(curso->carrera, MAX_LEN_CARRERA, carrera);
+    /* El area no viene en el JSON: se deduce del prefijo del codigo (ver area.c). */
+    obtenerArea(curso->codigo, curso->area, MAX_LEN_AREA);
     curso->numCreditos = (int)creditos->valuedouble;
 
     llenarArregloStrings(requisitos, curso->requisitos, MAX_REQUISITOS,

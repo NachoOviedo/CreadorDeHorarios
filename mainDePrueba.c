@@ -42,8 +42,8 @@ static void imprimirCatalogo(const Catalogo *catalogo) {
 
     for (int i = 0; i < catalogo->cantidadCursos; i++) {
         const Curso *c = &catalogo->cursos[i];
-        printf("%-8s %-45s %d creditos, %d grupo(s)\n",
-               c->codigo, c->nombre, c->numCreditos, c->cantidadGrupos);
+        printf("%-8s %-45s %d creditos, %d grupo(s), area: %s\n",
+               c->codigo, c->nombre, c->numCreditos, c->cantidadGrupos, c->area);
 
         for (int j = 0; j < c->cantidadGrupos; j++) {
             const Grupo *g = &c->grupos[j];
@@ -114,7 +114,9 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    Catalogo catalogo;
+    /* static: el Catalogo pesa mas de 1 MB y en la pila podria desbordarla
+     * (en Windows la pila por defecto es chica). */
+    static Catalogo catalogo;
     int resultadoCatalogo = cargarCatalogo(rutaCatalogo, estudiante.carrera, &catalogo);
     if (resultadoCatalogo != OK) {
         fprintf(stderr, "No se pudo cargar el catalogo (codigo de error %d)\n", resultadoCatalogo);

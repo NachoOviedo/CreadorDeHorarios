@@ -16,4 +16,13 @@ add_executable(CreadorDeHorarios
         src/cJSON.c
         procesador.h
         procesador.c
+        area.h
+        area.c
+)
+
+# Prueba de la funcion que deduce el area a partir del codigo del curso.
+# Se ejecuta con: ./pruebaArea
+add_executable(pruebaArea
+        tests/pruebaArea.c
+        area.c
 )
