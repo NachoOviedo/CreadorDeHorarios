@@ -18,6 +18,7 @@
   (ann (hash 'curso (Curso-codigo curso)
              'grupo (Grupo-numero (Seleccion-grupo s))
              'carrera (Curso-carrera curso)
+             'area (Curso-area curso)
              'creditos (Curso-creditos curso))
        JSExpr))
 

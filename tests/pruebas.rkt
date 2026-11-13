@@ -14,14 +14,14 @@
 ;; --- Datos de prueba ---
 
 ;; CA grupo 1 choca con CB grupo 1 (los dos son los lunes por la manana)
-(define ca (Curso "CA" "Curso A" "Ing.Computadores" 3 1 '() '()
+(define ca (Curso "CA" "Curso A" "Ing.Computadores" "Computadores" 3 1 '() '()
                   (list (Grupo 1 "Prof 1" #t (list (Bloque "lunes" 730 920)))
                         (Grupo 2 "Prof 2" #f (list (Bloque "martes" 730 920))))))
-(define cb (Curso "CB" "Curso B" "Ing.Computadores" 4 1 '() '()
+(define cb (Curso "CB" "Curso B" "Ing.Computadores" "Matematica" 4 1 '() '()
                   (list (Grupo 1 "Prof 3" #t (list (Bloque "lunes" 800 950)))
                         (Grupo 2 "Prof 4" #f (list (Bloque "miercoles" 730 920))))))
 ;; CC no se puede matricular (puede-matricular = 0)
-(define cc (Curso "CC" "Curso C" "Ing.Computadores" 2 0 '() '()
+(define cc (Curso "CC" "Curso C" "Ing.Computadores" "Quimica" 2 0 '() '()
                   (list (Grupo 1 "Prof 5" #f (list (Bloque "jueves" 730 920))))))
 
 (define catalogo
@@ -115,6 +115,11 @@
   (define cursos (como-lista (leer-campo primera 'cursos)))
   (check-equal? (length cursos) 2)
   (check-equal? (como-texto (leer-campo (car cursos) 'carrera)) "Ing.Computadores")
+  ;; el area que calcula C debe llegar intacta hasta el archivo de Prolog
+  (check-equal? (sort (map (lambda ([c : JSExpr]) (como-texto (leer-campo c 'area)))
+                           cursos)
+                      string<?)
+                '("Computadores" "Matematica"))
   (check-true (exact-integer? (leer-campo (car cursos) 'grupo)))
   (delete-file ruta))
 

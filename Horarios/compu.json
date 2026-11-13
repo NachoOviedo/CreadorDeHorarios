@@ -4491,5 +4491,433 @@
         "Profesor": "Roxana Jiménez"
       }
     ]
+  },
+  {
+    "codigo": "CE1111",
+    "nombre": "Análisis Numérico para la Ingeniería",
+    "creditos": 3,
+    "requisitos": [
+      "Ecuaciones Diferenciales"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Soto Quiros Juan Pablo"
+      }
+    ]
+  },
+  {
+    "codigo": "CE1112",
+    "nombre": "Taller de Señales Mixtas",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Chavarria Zamora Luis"
+      }
+    ]
+  },
+  {
+    "codigo": "CE1116",
+    "nombre": "Diseño y Calidad en Productos Tecnológicos",
+    "creditos": 4,
+    "requisitos": [
+      "Bases de Datos",
+      "Arquitectura de Computadores I",
+      "Ingeniería Económica"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1900,
+            "fin": 2050
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1900,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Madriz Huertas Daniel"
+      }
+    ]
+  },
+  {
+    "codigo": "CE4302",
+    "nombre": "Arquitectura de Computadores II",
+    "creditos": 4,
+    "requisitos": [
+      "Arquitectura de Computadores I"
+    ],
+    "correquisitos": [
+      "Principios de Sistemas Operativos"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Barboza Artavia Luis"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1450
+          },
+          {
+            "dia": "viernes",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Chavarria Zamora Luis"
+      }
+    ]
+  },
+  {
+    "codigo": "CE4303",
+    "nombre": "Principios de Sistemas Operativos",
+    "creditos": 4,
+    "requisitos": [
+      "Compiladores e Intérpretes"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Barboza Artavia Luis"
+      }
+    ]
+  },
+  {
+    "codigo": "AE4208",
+    "nombre": "Desarrollo de Emprendedores",
+    "creditos": 4,
+    "requisitos": [
+      "Ambiente Humano"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Brenes Cervantes Ivannia"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Guerrero Vargas Ligia"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Garita Granados Carla"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Leandro Elizondo Ronald"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Guillen Miranda Erick"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Guillen Miranda Erick"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Thames Ramirez Karla"
+      }
+    ]
+  },
+  {
+    "codigo": "CE1113",
+    "nombre": "Sistemas Empotrados",
+    "creditos": 3,
+    "requisitos": [
+      "Principios de Sistemas Operativos"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1500,
+            "fin": 1650
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Gonzalez Gomez Jeferson"
+      }
+    ]
+  },
+  {
+    "codigo": "CE5301",
+    "nombre": "Redes de Computadores",
+    "creditos": 4,
+    "requisitos": [
+      "Diseño y Calidad en Productos Tecnológicos",
+      "Principios de Sistemas Operativos"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 1850
+          },
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1850
+          }
+        ],
+        "Profesor": "Tacsan Chaves Rodolfo"
+      }
+    ]
+  },
+  {
+    "codigo": "CS3404",
+    "nombre": "Seminario de Ética para la Ingeniería",
+    "creditos": 2,
+    "requisitos": [
+      "Ambiente Humano"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Vargas Elizondo Celso"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Bojorge Murillo Alexander"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Casasola Rivera Wilmer"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Garro Reyes Mauricio"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Prendas Solano Jorge"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Cedeño Camacho Mauricio"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Casasola Rivera Wilmer"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Casasola Rivera Wilmer"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Prendas Solano Jorge"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Garro Reyes Mauricio"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Garro Reyes Mauricio"
+      }
+    ]
   }
 ]

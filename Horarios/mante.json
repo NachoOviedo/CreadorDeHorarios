@@ -6197,5 +6197,568 @@
         "Profesor": "Carlos Díaz"
       }
     ]
+  },
+  {
+    "codigo": "AE4208",
+    "nombre": "Desarrollo de Emprendedores",
+    "creditos": 4,
+    "requisitos": [
+      "Ambiente Humano"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Brenes Cervantes Ivannia"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Guerrero Vargas Ligia"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Garita Granados Carla"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Leandro Elizondo Ronald"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Guillen Miranda Erick"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Guillen Miranda Erick"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Thames Ramirez Karla"
+      }
+    ]
+  },
+  {
+    "codigo": "CM3207",
+    "nombre": "Métodos Numéricos para Ingeniería",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Chine Polito Bruno"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Vega Garita Victor"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Stradi Granados Benito"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Rodriguez Rojas Alfredo"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Araya Meneses Ivan"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1700,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Rodriguez Rojas Alfredo"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Rodriguez Mendez Francisco"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Calderon Arce Cindy"
+      }
+    ]
+  },
+  {
+    "codigo": "MI3116",
+    "nombre": "Turbo Máquinas",
+    "creditos": 4,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1120
+          },
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Garro Zavaleta Jose Alberto"
+      }
+    ]
+  },
+  {
+    "codigo": "MI3119",
+    "nombre": "Laboratorio de Turbomáquinas",
+    "creditos": 1,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Monge Ruiz Oscar Eduardo"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1500,
+            "fin": 1650
+          }
+        ],
+        "Profesor": "Monge Ruiz Oscar Eduardo"
+      }
+    ]
+  },
+  {
+    "codigo": "MI3209",
+    "nombre": "Electricidad III",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 830,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Araya Rodriguez Lisandro"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1700,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Araya Rodriguez Lisandro"
+      }
+    ]
+  },
+  {
+    "codigo": "MI4300",
+    "nombre": "Administración Mantenimiento I",
+    "creditos": 4,
+    "requisitos": [
+      "Ingeniería Económica",
+      "Máquinas Eléctricas",
+      "Probabilidad y Estadística"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 730,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Mata Ortega Sebastian"
+      }
+    ]
+  },
+  {
+    "codigo": "MI4311",
+    "nombre": "Modelos Cuantitativos para la Toma de Decisiones",
+    "creditos": 3,
+    "requisitos": [
+      "Cálculo y Álgebra Lineal",
+      "Probabilidad y Estadística"
+    ],
+    "correquisitos": [
+      "Administración Mantenimiento I"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1700,
+            "fin": 1950
+          }
+        ],
+        "Profesor": "Matarrita Chaves Rosa Maria"
+      }
+    ]
+  },
+  {
+    "codigo": "CS3404",
+    "nombre": "Seminario de Ética para la Ingeniería",
+    "creditos": 2,
+    "requisitos": [
+      "Ambiente Humano"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Vargas Elizondo Celso"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Bojorge Murillo Alexander"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Casasola Rivera Wilmer"
+      },
+      {
+        "numero": 4,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Garro Reyes Mauricio"
+      },
+      {
+        "numero": 5,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Prendas Solano Jorge"
+      },
+      {
+        "numero": 6,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Cedeño Camacho Mauricio"
+      },
+      {
+        "numero": 7,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Casasola Rivera Wilmer"
+      },
+      {
+        "numero": 8,
+        "clases": [
+          {
+            "dia": "lunes",
+            "inicio": 1800,
+            "fin": 2050
+          }
+        ],
+        "Profesor": "Casasola Rivera Wilmer"
+      },
+      {
+        "numero": 9,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Prendas Solano Jorge"
+      },
+      {
+        "numero": 10,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Garro Reyes Mauricio"
+      },
+      {
+        "numero": 11,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1220
+          }
+        ],
+        "Profesor": "Garro Reyes Mauricio"
+      }
+    ]
+  },
+  {
+    "codigo": "MI4209",
+    "nombre": "Control Eléctrico",
+    "creditos": 3,
+    "requisitos": [],
+    "correquisitos": [
+      "Laboratorio de Control Eléctrico"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "martes",
+            "inicio": 1300,
+            "fin": 1550
+          }
+        ],
+        "Profesor": "Murillo Soto Luis Diego"
+      }
+    ]
+  },
+  {
+    "codigo": "MI4210",
+    "nombre": "Laboratorio de Control Eléctrico",
+    "creditos": 1,
+    "requisitos": [],
+    "correquisitos": [
+      "Control Eléctrico"
+    ],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 730,
+            "fin": 920
+          }
+        ],
+        "Profesor": "Gomez Gutierrez Luis"
+      },
+      {
+        "numero": 2,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 1300,
+            "fin": 1450
+          }
+        ],
+        "Profesor": "Murillo Soto Luis Diego"
+      },
+      {
+        "numero": 3,
+        "clases": [
+          {
+            "dia": "viernes",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Rojas Hernandez Juan Jose"
+      }
+    ]
+  },
+  {
+    "codigo": "MI4305",
+    "nombre": "Administración de Mantenimiento II",
+    "creditos": 3,
+    "requisitos": [
+      "Administración Mantenimiento I"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "miércoles",
+            "inicio": 730,
+            "fin": 1020
+          }
+        ],
+        "Profesor": "Piedra Santamaria Carlos"
+      }
+    ]
+  },
+  {
+    "codigo": "SO2601",
+    "nombre": "Fundamentos de Seguridad e Higiene Ocupacional",
+    "creditos": 1,
+    "requisitos": [
+      "Desarrollo de Emprendedores"
+    ],
+    "correquisitos": [],
+    "grupos": [
+      {
+        "numero": 1,
+        "clases": [
+          {
+            "dia": "jueves",
+            "inicio": 930,
+            "fin": 1120
+          }
+        ],
+        "Profesor": "Carpio Chaves Monica"
+      }
+    ]
   }
 ]

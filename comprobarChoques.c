@@ -58,6 +58,8 @@ void detectarChoques(Catalogo *catalogo)
         return;
     }
 
+    int capacidadAvisada = 0;
+
     for (int c1 = 0; c1 < catalogo->cantidadCursos; c1++)
     {
         Curso *cursoA = &catalogo->cursos[c1];
@@ -88,6 +90,12 @@ void detectarChoques(Catalogo *catalogo)
                             strncpy(par->codigoCursoB, cursoB->codigo, MAX_LEN_CODIGO);
                             par->numGrupoB = grupoB->numGrupo;
                             catalogo->cantidadChoques++;
+                        }
+                        else if (!capacidadAvisada)
+                        {
+                            fprintf(stderr, "Advertencia: se alcanzo MAX_CHOQUES (%d), "
+                                            "hay choques que no se registran\n", MAX_CHOQUES);
+                            capacidadAvisada = 1;
                         }
                     }
                 }

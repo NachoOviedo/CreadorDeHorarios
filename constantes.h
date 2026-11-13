@@ -13,6 +13,7 @@
 #define MAX_LEN_RUTA         256
 #define MAX_LEN_CARNET        11  //Carnet mas terminador \0
 #define MAX_LEN_CARRERA 40
+#define MAX_LEN_AREA    40
 
 #define MAX_REQUISITOS         6
 #define MAX_CORREQUISITOS      4
@@ -23,6 +24,8 @@
 #define ERROR_CAMPO_FALTANTE    3
 #define ERROR_CAPACIDAD_MAXIMA  4
 
-#define MAX_CHOQUES 10000
+/* Con los planes a 8 semestres, Mantenimiento ya tiene ~10500 pares de
+ * grupos que chocan, asi que 10000 dejaba pares sin registrar. */
+#define MAX_CHOQUES 20000
 
 #endif

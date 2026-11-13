@@ -24,6 +24,7 @@ typedef struct
     char codigo[MAX_LEN_CODIGO];
     char nombre[MAX_LEN_NOMBRE];
     char carrera[MAX_LEN_CARRERA];
+    char area[MAX_LEN_AREA];
     int numCreditos;
     char requisitos[MAX_REQUISITOS][MAX_LEN_NOMBRE];
     int cantidadRequisitos;
