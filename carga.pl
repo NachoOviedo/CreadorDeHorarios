@@ -2,25 +2,14 @@
 %%
 %% Lee Output/combinaciones.json y lo convierte en hechos dinamicos
 %% combinacion/3 cuyos argumentos son terminos compuestos, de modo que las
-%% etapas siguientes recorran todas las combinaciones por backtracking:
+%% etapas siguientes recorran todas las combinaciones
 %%
 %%   combinacion(Id, CreditosTotales, [curso(Codigo, Grupo, Carrera, Area, Creditos), ...])
-%%
-%%   Id              entero desde 1, en el orden en que Racket escribio el archivo
-%%   CreditosTotales entero, tal cual lo calculo Racket
-%%   Codigo          atomo, p. ej. 'CE2103'
-%%   Grupo           entero
-%%   Carrera, Area   atomos, p. ej. 'Ing.Computadores', 'Matematica'
-%%   Creditos        entero (creditos de ese curso)
 %%
 %% Tambien se guarda el rango con el que Racket genero el archivo:
 %%
 %%   rango_creditos(Min, Max)
-%%
-%% Contrato con la etapa anterior: cada curso del JSON debe traer los campos
-%% curso, grupo, carrera, area y creditos. "area" lo agrega la Etapa 1, asi que
-%% un combinaciones.json generado con una version anterior falla con un
-%% mensaje claro en vez de cargarse incompleto.
+
 
 :- module(carga, [
     cargar_combinaciones/1,
